@@ -3,10 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Marian\\Desktop\\CFP\\Marian Rodriguez\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AB87634-DEB7-421F-AB77-BE01597B8139}|..\\Ej03\\Ej03.csproj|c:\\users\\marian\\desktop\\cfp\\ej03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2D2B226-6F23-4585-BD80-120902FE355D}|..\\Ej02\\Ej02.csproj|c:\\users\\marian\\desktop\\cfp\\ej02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EFD0180-3A5E-4DCB-9401-8CE4976E93E3}|..\\Ej05\\Ej05.csproj|c:\\users\\marian\\desktop\\cfp\\ej05\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,26 +19,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Ej03\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Ej03\\Program.cs",
-              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Ej03\\Program.cs",
-              "RelativeToolTip": "..\\Ej03\\Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAkwB4AAABbAAAA",
+              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Ej05\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Ej05\\Program.cs",
+              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Ej05\\Program.cs",
+              "RelativeToolTip": "..\\Ej05\\Program.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAkwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T23:45:15.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Ej02\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Ej02\\Program.cs",
-              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Ej02\\Program.cs",
-              "RelativeToolTip": "..\\Ej02\\Program.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAuwBkAAABgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T23:43:02.486Z",
+              "WhenOpened": "2024-04-22T23:50:57.557Z",
               "EditorCaption": ""
             }
           ]
