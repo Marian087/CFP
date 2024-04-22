@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marian\\Desktop\\CFP\\Marian Rodriguez\\Ej03\\Ej03.csproj",
+      "projectUniqueName": "C:\\Users\\Marian\\Desktop\\CFP\\Ej03\\Ej03.csproj",
       "projectName": "Ej03",
-      "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\Marian Rodriguez\\Ej03\\Ej03.csproj",
+      "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\Ej03\\Ej03.csproj",
       "packagesPath": "C:\\Users\\Marian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marian\\Desktop\\CFP\\Marian Rodriguez\\Ej03\\obj\\",
+      "outputPath": "C:\\Users\\Marian\\Desktop\\CFP\\Ej03\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Marian\\AppData\\Roaming\\NuGet\\NuGet.Config",

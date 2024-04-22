@@ -5,7 +5,6 @@
         static void Main(string[] args)
         {
 
-
             //3. Ingresar 2 números y mostrar la suma de los mismos.
 
 
@@ -30,7 +29,6 @@
 
 
             Console.WriteLine($"La suma de sus dos números es : {numeroUno + numeroDos} ");
-
         }
     }
 }

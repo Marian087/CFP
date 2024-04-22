@@ -24,7 +24,6 @@
             edadNumerica = int.Parse(edad);
 
             Console.WriteLine($"Muchas gracias {nombre} {apellido}, su edad es {edadNumerica}");
-
         }
     }
 }
