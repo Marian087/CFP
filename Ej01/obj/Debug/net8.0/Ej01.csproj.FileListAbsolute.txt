@@ -1,0 +1,15 @@
+C:\Users\Marian\Desktop\CFP\Ej01\bin\Debug\net8.0\Ej01.exe
+C:\Users\Marian\Desktop\CFP\Ej01\bin\Debug\net8.0\Ej01.deps.json
+C:\Users\Marian\Desktop\CFP\Ej01\bin\Debug\net8.0\Ej01.runtimeconfig.json
+C:\Users\Marian\Desktop\CFP\Ej01\bin\Debug\net8.0\Ej01.dll
+C:\Users\Marian\Desktop\CFP\Ej01\bin\Debug\net8.0\Ej01.pdb
+C:\Users\Marian\Desktop\CFP\Ej01\obj\Debug\net8.0\Ej01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marian\Desktop\CFP\Ej01\obj\Debug\net8.0\Ej01.AssemblyInfoInputs.cache
+C:\Users\Marian\Desktop\CFP\Ej01\obj\Debug\net8.0\Ej01.AssemblyInfo.cs
+C:\Users\Marian\Desktop\CFP\Ej01\obj\Debug\net8.0\Ej01.csproj.CoreCompileInputs.cache
+C:\Users\Marian\Desktop\CFP\Ej01\obj\Debug\net8.0\Ej01.sourcelink.json
+C:\Users\Marian\Desktop\CFP\Ej01\obj\Debug\net8.0\Ej01.dll
+C:\Users\Marian\Desktop\CFP\Ej01\obj\Debug\net8.0\refint\Ej01.dll
+C:\Users\Marian\Desktop\CFP\Ej01\obj\Debug\net8.0\Ej01.pdb
+C:\Users\Marian\Desktop\CFP\Ej01\obj\Debug\net8.0\Ej01.genruntimeconfig.cache
+C:\Users\Marian\Desktop\CFP\Ej01\obj\Debug\net8.0\ref\Ej01.dll
