@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\Marian\\Desktop\\CFP\\Marian Rodriguez\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ED79581D-4886-4404-BB60-AC952FD0F055}|..\\Ej07\\Ej07.csproj|c:\\users\\marian\\desktop\\cfp\\ej07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2EFD0180-3A5E-4DCB-9401-8CE4976E93E3}|..\\Ej05\\Ej05.csproj|c:\\users\\marian\\desktop\\cfp\\ej05\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,6 +21,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Ej07\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Ej07\\Program.cs",
+              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Ej07\\Program.cs",
+              "RelativeToolTip": "..\\Ej07\\Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAkwCwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T23:56:49.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Ej05\\Program.cs",
               "RelativeDocumentMoniker": "..\\Ej05\\Program.cs",
