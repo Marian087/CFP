@@ -16,8 +16,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -26,7 +30,7 @@
               "RelativeDocumentMoniker": "..\\Ej07\\Program.cs",
               "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Ej07\\Program.cs",
               "RelativeToolTip": "..\\Ej07\\Program.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAkwCwAAAAhAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwC0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T23:56:49.06Z",
               "EditorCaption": ""
@@ -41,8 +45,7 @@
               "RelativeToolTip": "..\\Ej05\\Program.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAkwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T23:50:57.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T23:50:57.557Z"
             }
           ]
         }

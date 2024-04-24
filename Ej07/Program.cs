@@ -20,7 +20,9 @@ namespace Ej07
             //El número máximo
             //De los negativos el mínimo
 
-            int[] numeros = new int[15];
+            int[] numeros = new int[3];
+
+            int sumaNegativos = 0;
             int sumaPositivos = 0;
             int cantPositivos = 0;
             int cantNegativos = 0;
@@ -32,23 +34,21 @@ namespace Ej07
             int numeroMaximo = 0;
             int numeroNegMinimo = 0;
 
-             
             
             
             for (int i = 0; i < numeros.Length; i++) 
             {
-                Console.WriteLine("Por favor ingrese el numeros {0}", i + 1);
-                numeros[i] = int.Parse(Console.ReadLine());
+                Console.WriteLine("Por favor ingrese el numero {0}", i + 1);
+                Console.WriteLine(numeros[i]);
 
             }
 
-            if (numeros[i] > 0) ;
-            { 
             
-            
-            }
 
-            Console.WriteLine($"La suma de los nùmeros positivos es: {sumaPositivos}");
+
+
+            Console.WriteLine($"La suma de todos los nùmeros negativos es: {sumaNegativos}");
+            Console.WriteLine($"La suma de todos los nùmeros positivos es: {sumaPositivos}");
 
         }
     }
