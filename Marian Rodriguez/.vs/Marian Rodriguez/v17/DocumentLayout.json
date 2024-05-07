@@ -3,10 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Marian\\Desktop\\CFP\\Marian Rodriguez\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED79581D-4886-4404-BB60-AC952FD0F055}|..\\Ej07\\Ej07.csproj|c:\\users\\marian\\desktop\\cfp\\ej07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{516C6949-14F5-408B-A52E-D3378882124D}|..\\libreria_Calzado\\libreria_Calzado.csproj|c:\\users\\marian\\desktop\\cfp\\libreria_calzado\\calzado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD0180-3A5E-4DCB-9401-8CE4976E93E3}|..\\Ej05\\Ej05.csproj|c:\\users\\marian\\desktop\\cfp\\ej05\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{679E3926-CB3F-4619-818D-6F1D141DC49B}|..\\Celular\\Calzado.csproj|c:\\users\\marian\\desktop\\cfp\\celular\\calzado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,36 +16,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Ej07\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Ej07\\Program.cs",
-              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Ej07\\Program.cs",
-              "RelativeToolTip": "..\\Ej07\\Program.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwC0AAAAMAAAA",
+              "Title": "Calzado.cs",
+              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\libreria_Calzado\\Calzado.cs",
+              "RelativeDocumentMoniker": "..\\libreria_Calzado\\Calzado.cs",
+              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\libreria_Calzado\\Calzado.cs",
+              "RelativeToolTip": "..\\libreria_Calzado\\Calzado.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwDQAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T23:56:49.06Z",
+              "WhenOpened": "2024-05-07T00:01:25.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Ej05\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Ej05\\Program.cs",
-              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Ej05\\Program.cs",
-              "RelativeToolTip": "..\\Ej05\\Program.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAkwCcAAAAAAAAA",
+              "Title": "Calzado.cs",
+              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Celular\\Calzado.cs",
+              "RelativeDocumentMoniker": "..\\Celular\\Calzado.cs",
+              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Celular\\Calzado.cs",
+              "RelativeToolTip": "..\\Celular\\Calzado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T23:50:57.557Z"
+              "WhenOpened": "2024-05-06T23:12:35.866Z",
+              "EditorCaption": ""
             }
           ]
         }
