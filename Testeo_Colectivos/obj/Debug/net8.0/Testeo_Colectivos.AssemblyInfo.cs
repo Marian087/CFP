@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Testeo_Colectivos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43d54d7c3e9adb62a7ffa8a51b36dbe023e91db0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e33e811649bb502433e840ba68eb2417044dec2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Testeo_Colectivos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Testeo_Colectivos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
