@@ -28,8 +28,9 @@ namespace Ej07
             int cantNegativos = 0;
             int cantCeros = 0;
             int cantPares = 0;
-            int promedioPositivos = 0;
-            int promedioNegativos = 0;
+            int sumaPares = 0;
+            double promedioPositivos = 0;
+            double promedioNegativos = 0;
             int diferenciaPosNeg = 0;
             int numeroMaximo = 0;
             int numeroNegMinimo = 0;
@@ -73,22 +74,35 @@ namespace Ej07
 
                 }
 
-                if (numeros[i] %2 ==0)
+                if (numeros[i] % 2 == 0)
                 {
+                    sumaPares += numeros[i];
                     cantPares++;
 
                 }
+                if (numeros[i] > numeroMaximo)
+                {
+                    numeroMaximo = numeros[i];
+                }
 
+                if (cantNegativos > 0)
+                {
+                    promedioNegativos = (double)sumaNegativos / cantNegativos;
 
+                }
+                    
+               if (cantPositivos > 0)
+               {
+                    promedioPositivos = (double)sumaPositivos / cantPositivos; 
+                
+               }
 
+               diferenciaPosNeg = sumaPositivos - sumaNegativos;
 
 
 
 
             }
-
-
-
 
 
             Console.WriteLine($"La suma de todos los nùmeros positivos es: {sumaPositivos}");
