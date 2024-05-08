@@ -17,19 +17,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej05", "..\Ej05\Ej05.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej07", "..\Ej07\Ej07.csproj", "{ED79581D-4886-4404-BB60-AC952FD0F055}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repaso_clasePresencial_Colecciones", "..\Repaso_clasePresencial_Colecciones\Repaso_clasePresencial_Colecciones.csproj", "{13FF0355-C899-449F-958D-EE06A8D070E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repaso_clasePresencial_Colecciones", "..\Repaso_clasePresencial_Colecciones\Repaso_clasePresencial_Colecciones.csproj", "{13FF0355-C899-449F-958D-EE06A8D070E2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calzado", "..\Celular\Calzado.csproj", "{679E3926-CB3F-4619-818D-6F1D141DC49B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colectivo", "..\colectivo\Colectivo.csproj", "{751C8748-DF88-421A-890A-F3651611BC8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colectivo", "..\colectivo\Colectivo.csproj", "{751C8748-DF88-421A-890A-F3651611BC8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "biblioteca_colectivo", "..\biblioteca_colectivo\biblioteca_colectivo.csproj", "{23EAC381-72B5-4750-8635-005E39691031}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "biblioteca_colectivo", "..\biblioteca_colectivo\biblioteca_colectivo.csproj", "{23EAC381-72B5-4750-8635-005E39691031}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testeo_Colectivos", "..\Testeo_Colectivos\Testeo_Colectivos.csproj", "{75AB5616-8F43-4161-BA3F-EA5C193E1A31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testeo_Colectivos", "..\Testeo_Colectivos\Testeo_Colectivos.csproj", "{75AB5616-8F43-4161-BA3F-EA5C193E1A31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testeo_Calzado", "..\Testeo_Calzado\Testeo_Calzado.csproj", "{2722046A-BAC1-43B6-B2EA-DA063889C658}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testeo_Calzado", "..\Testeo_Calzado\Testeo_Calzado.csproj", "{2722046A-BAC1-43B6-B2EA-DA063889C658}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libreria_Calzado", "..\libreria_Calzado\libreria_Calzado.csproj", "{516C6949-14F5-408B-A52E-D3378882124D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libreria_Calzado", "..\libreria_Calzado\libreria_Calzado.csproj", "{516C6949-14F5-408B-A52E-D3378882124D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strings01", "..\strings01\strings01.csproj", "{40C1285D-FCF4-432A-82EE-E5171691B2FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{516C6949-14F5-408B-A52E-D3378882124D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{516C6949-14F5-408B-A52E-D3378882124D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{516C6949-14F5-408B-A52E-D3378882124D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C1285D-FCF4-432A-82EE-E5171691B2FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C1285D-FCF4-432A-82EE-E5171691B2FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C1285D-FCF4-432A-82EE-E5171691B2FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C1285D-FCF4-432A-82EE-E5171691B2FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
