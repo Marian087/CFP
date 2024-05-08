@@ -9,10 +9,10 @@ namespace Ej07
             //(REPETITIVAS)
             //  Ingresar 15 números y determinar:
             //  Suma de los negativos.
-            //Suma de los positivos.
-            //Cantidad de positivos.
-            //Cantidad de negativos.
-            //Cantidad de ceros.
+            //Suma de los positivos.//
+            //Cantidad de positivos.//
+            //Cantidad de negativos.//
+            //Cantidad de ceros.//
             //Cantidad de números pares.
             //Promedio de positivos.
             //Promedio de negativos.
@@ -20,7 +20,7 @@ namespace Ej07
             //El número máximo
             //De los negativos el mínimo
 
-            int[] numeros = new int[3];
+            int[] numeros = new int[5];
 
             int sumaNegativos = 0;
             int sumaPositivos = 0;
@@ -34,22 +34,78 @@ namespace Ej07
             int numeroMaximo = 0;
             int numeroNegMinimo = 0;
 
-            
-            
-            for (int i = 0; i < numeros.Length; i++) 
+
+
+            for (int i = 0; i < 5; i++) 
             {
-                Console.WriteLine("Por favor ingrese el numero {0}", i + 1);
-                Console.WriteLine(numeros[i]);
+                Console.WriteLine($"Por favor ingrese el numero {i+1} de 15: ");
+                numeros[i] = Convert.ToInt32(Console.ReadLine());  
+                
+                if (numeros[i] > 0)
+                {
+                    sumaPositivos+= numeros[i];
+                    cantPositivos++;
+
+
+                }
+                else 
+                {
+                    if (numeros[i] == 0)
+                    {
+                        cantCeros++;
+                    
+                    }
+                    else 
+                    {
+                        sumaNegativos += numeros[i];
+                       
+
+                        if (numeros[i] < numeroNegMinimo)
+                        {
+                            numeroNegMinimo = numeros[i];
+                                                
+                        }
+
+                        cantNegativos++;
+
+                    }
+
+
+                }
+
+                if (numeros[i] %2 ==0)
+                {
+                    cantPares++;
+
+                }
+
+
+
+
+
+
 
             }
 
-            
 
 
 
-            Console.WriteLine($"La suma de todos los nùmeros negativos es: {sumaNegativos}");
+
             Console.WriteLine($"La suma de todos los nùmeros positivos es: {sumaPositivos}");
+            Console.WriteLine($"La cantidad de los nùmeros positivos es: {cantPositivos}");
+            Console.WriteLine($"La cantidad de los nùmeros negativos es: {cantNegativos}");
 
+            Console.WriteLine($"La cantidad de numeros ceros es de: {cantCeros}");
+            Console.WriteLine($"La cantidad de nùmeros pares es: {cantPares}");
+            Console.WriteLine($"El promedio de nùmeros positivos es de: {promedioPositivos}");
+
+            Console.WriteLine($"El promedio de nùmeros negativos es de: {promedioNegativos}");
+
+            Console.WriteLine($"La diferencia entre los numeros positivos y negativos es de: {diferenciaPosNeg}");
+
+            Console.WriteLine($"El nùmero màximo es: {numeroMaximo}");
+
+            Console.WriteLine($"El nùmero negativo minimo es: {numeroNegMinimo}");
         }
     }
 }
