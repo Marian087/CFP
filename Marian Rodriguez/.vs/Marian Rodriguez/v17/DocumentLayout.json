@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\Marian\\Desktop\\CFP\\Marian Rodriguez\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C3D25A8B-6534-4935-AF80-1D39D2DBC478}|..\\strings04\\strings04.csproj|c:\\users\\marian\\desktop\\cfp\\strings04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1FAEC217-A801-47E9-B889-7EF06CDA514A}|..\\strings03\\strings03.csproj|c:\\users\\marian\\desktop\\cfp\\strings03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -25,18 +28,31 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\strings04\\Program.cs",
+              "RelativeDocumentMoniker": "..\\strings04\\Program.cs",
+              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\strings04\\Program.cs",
+              "RelativeToolTip": "..\\strings04\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:21:18.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\strings03\\Program.cs",
               "RelativeDocumentMoniker": "..\\strings03\\Program.cs",
               "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\strings03\\Program.cs",
               "RelativeToolTip": "..\\strings03\\Program.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAgwBQAAABGAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAA1wBAAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T15:00:17.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\strings02\\Program.cs",
               "RelativeDocumentMoniker": "..\\strings02\\Program.cs",
@@ -44,12 +60,11 @@
               "RelativeToolTip": "..\\strings02\\Program.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAwwA0AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T14:22:34.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T14:22:34.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Ej07\\Program.cs",
               "RelativeDocumentMoniker": "..\\Ej07\\Program.cs",
