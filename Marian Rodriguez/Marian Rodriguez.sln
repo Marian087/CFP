@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libreria_Calzado", "..\libr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "strings01", "..\strings01\strings01.csproj", "{40C1285D-FCF4-432A-82EE-E5171691B2FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strings02", "..\strings02\strings02.csproj", "{1CBE390F-36B0-4B0D-A010-1A7A7608DD6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "strings02", "..\strings02\strings02.csproj", "{1CBE390F-36B0-4B0D-A010-1A7A7608DD6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strings03", "..\strings03\strings03.csproj", "{1FAEC217-A801-47E9-B889-7EF06CDA514A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{1CBE390F-36B0-4B0D-A010-1A7A7608DD6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CBE390F-36B0-4B0D-A010-1A7A7608DD6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CBE390F-36B0-4B0D-A010-1A7A7608DD6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FAEC217-A801-47E9-B889-7EF06CDA514A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FAEC217-A801-47E9-B889-7EF06CDA514A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FAEC217-A801-47E9-B889-7EF06CDA514A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FAEC217-A801-47E9-B889-7EF06CDA514A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
