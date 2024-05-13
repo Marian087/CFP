@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Repaso_clasePresencial_Colecciones")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b5087e25339b171742c1a349ca3b51147cfb5bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ac6512de399dd039b548dfc1990672be6144e6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Repaso_clasePresencial_Colecciones")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Repaso_clasePresencial_Colecciones")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
