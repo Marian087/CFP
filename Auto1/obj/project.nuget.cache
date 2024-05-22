@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "fU/E4brE6KEcj4boJNtLm9O9vcAIaH21Gde+E3vq9NlZ3LIitL7MWz+Qccf3Y0BVktY5WJQCwnrvCcPtF6bHIA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Marian\\Desktop\\CFP\\Auto1\\Auto3.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "No se encuentra el proyecto \"C:\\Users\\Marian\\Desktop\\CFP\\bibliotecaAuto3\\bibliotecaAuto3.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
+      "libraryId": "C:\\Users\\Marian\\Desktop\\CFP\\bibliotecaAuto3\\bibliotecaAuto3.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

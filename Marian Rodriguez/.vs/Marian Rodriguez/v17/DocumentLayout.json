@@ -3,10 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Marian\\Desktop\\CFP\\Marian Rodriguez\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2AAE9AD5-91FE-41F3-A26D-D2654F403480}|..\\Funciones02\\Funciones02.csproj|c:\\users\\marian\\desktop\\cfp\\funciones02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5BCD481-227F-490E-832E-26CA822BDBF2}|..\\FormAuto\\FormularioAuto.csproj|c:\\users\\marian\\desktop\\cfp\\formauto\\formauto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82D18B6A-990F-4A7B-B364-4F6BCD4D02A1}|..\\funciones01\\funciones01.csproj|c:\\users\\marian\\desktop\\cfp\\funciones01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5BCD481-227F-490E-832E-26CA822BDBF2}|..\\FormAuto\\FormularioAuto.csproj|c:\\users\\marian\\desktop\\cfp\\formauto\\formauto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3824F85-F663-49E4-94F7-16F47B90B07B}|..\\Automoviles\\Automoviles.csproj|c:\\users\\marian\\desktop\\cfp\\automoviles\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5BCD481-227F-490E-832E-26CA822BDBF2}|..\\FormAuto\\FormAuto.csproj|c:\\users\\marian\\desktop\\cfp\\formauto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,27 +27,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Funciones02\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Funciones02\\Program.cs",
-              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Funciones02\\Program.cs",
-              "RelativeToolTip": "..\\Funciones02\\Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAwwDIAAAAAAAAA",
+              "Title": "FormAuto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\FormAuto\\FormAuto.cs",
+              "RelativeDocumentMoniker": "..\\FormAuto\\FormAuto.cs",
+              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\FormAuto\\FormAuto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\FormAuto\\FormAuto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T15:18:01.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T22:25:09.962Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\funciones01\\Program.cs",
-              "RelativeDocumentMoniker": "..\\funciones01\\Program.cs",
-              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\funciones01\\Program.cs",
-              "RelativeToolTip": "..\\funciones01\\Program.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBMAAAApAAAA",
+              "Title": "FormAuto.cs",
+              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\FormAuto\\FormAuto.cs",
+              "RelativeDocumentMoniker": "..\\FormAuto\\FormAuto.cs",
+              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\FormAuto\\FormAuto.cs",
+              "RelativeToolTip": "..\\FormAuto\\FormAuto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T15:04:48.237Z",
+              "WhenOpened": "2024-05-22T22:24:32.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\FormAuto\\Program.cs",
+              "RelativeDocumentMoniker": "..\\FormAuto\\Program.cs",
+              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\FormAuto\\Program.cs",
+              "RelativeToolTip": "..\\FormAuto\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T22:03:04.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Auto.cs",
+              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Automoviles\\Auto.cs",
+              "RelativeDocumentMoniker": "..\\Automoviles\\Auto.cs",
+              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Automoviles\\Auto.cs",
+              "RelativeToolTip": "..\\Automoviles\\Auto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T22:02:48.249Z",
               "EditorCaption": ""
             }
           ]

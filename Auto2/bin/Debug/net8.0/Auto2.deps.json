@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Auto2/1.0.0": {
+        "dependencies": {
+          "bibliotecaAuto2": "1.0.0"
+        },
+        "runtime": {
+          "Auto2.dll": {}
+        }
+      },
+      "bibliotecaAuto2/1.0.0": {
+        "runtime": {
+          "bibliotecaAuto2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Auto2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "bibliotecaAuto2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
