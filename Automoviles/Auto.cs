@@ -7,8 +7,14 @@
             Console.WriteLine("Hello, World!");
         }
 
+        pub
 
-
+        public static List<Color> ColoresValidos() 
+        {
+            List< Color
+        
+        
+        }
 
 
 

@@ -8,4 +8,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LibreriaAuto\LibreriaAuto.csproj" />
+    <ProjectReference Include="..\PrimeraEvaluacion\PrimeraEvaluacion.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,4 +1,5 @@
 ﻿using LibreriaAuto;
+using System.Drawing;
 
 namespace PrimeraEvaluacion
 {
@@ -8,7 +9,17 @@ namespace PrimeraEvaluacion
         // A. Atributos
         private string marca;
         private int cantCombustible;
-        private string color;
+        private Color color;
+        private static List<Color> misColores;
+
+        static Auto() 
+        {
+           Auto.misColores = new List<Color>();
+        
+        }
+
+
+
 
         // B. Constructor que inicializa todos los atributos
         public Auto(string marca, int cantCombustible, string color)

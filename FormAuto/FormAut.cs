@@ -1,6 +1,9 @@
+using PrimeraEvaluacion;
+using LibreriaAuto;
+
 namespace FormAuto
 {
-    internal static class Program
+    internal static class FormAut
     {
         /// <summary>
         ///  The main entry point for the application.
@@ -14,6 +17,9 @@ namespace FormAuto
             Application.Run(new FormAuto());
         }
 
+        private void
+
+        
 
 
 

@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "LibreriaAuto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/LibreriaAuto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibreriaAuto.dll": {}
+        }
+      },
+      "PrimeraEvaluacion/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "LibreriaAuto": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PrimeraEvaluacion.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PrimeraEvaluacion.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LibreriaAuto/1.0.0": {
+      "type": "project",
+      "path": "../LibreriaAuto/LibreriaAuto.csproj",
+      "msbuildProject": "../LibreriaAuto/LibreriaAuto.csproj"
+    },
+    "PrimeraEvaluacion/1.0.0": {
+      "type": "project",
+      "path": "../PrimeraEvaluacion/PrimeraEvaluacion.csproj",
+      "msbuildProject": "../PrimeraEvaluacion/PrimeraEvaluacion.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "LibreriaAuto >= 1.0.0",
+      "PrimeraEvaluacion >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Marian\\.nuget\\packages\\": {}
@@ -33,7 +71,14 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Marian\\Desktop\\CFP\\LibreriaAuto\\LibreriaAuto.csproj": {
+              "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\LibreriaAuto\\LibreriaAuto.csproj"
+            },
+            "C:\\Users\\Marian\\Desktop\\CFP\\PrimeraEvaluacion\\PrimeraEvaluacion.csproj": {
+              "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\PrimeraEvaluacion\\PrimeraEvaluacion.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
