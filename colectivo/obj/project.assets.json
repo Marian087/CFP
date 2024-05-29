@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "biblioteca_colectivo/1.0.0": {
+      "Libreria_colectivo/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/biblioteca_colectivo.dll": {}
+          "bin/placeholder/Libreria_colectivo.dll": {}
         },
         "runtime": {
-          "bin/placeholder/biblioteca_colectivo.dll": {}
+          "bin/placeholder/Libreria_colectivo.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "biblioteca_colectivo/1.0.0": {
+    "Libreria_colectivo/1.0.0": {
       "type": "project",
-      "path": "../biblioteca_colectivo/biblioteca_colectivo.csproj",
-      "msbuildProject": "../biblioteca_colectivo/biblioteca_colectivo.csproj"
+      "path": "../biblioteca_colectivo/Libreria_colectivo.csproj",
+      "msbuildProject": "../biblioteca_colectivo/Libreria_colectivo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "biblioteca_colectivo >= 1.0.0"
+      "Libreria_colectivo >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -32,9 +32,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marian\\Desktop\\CFP\\colectivo\\Colectivo.csproj",
-      "projectName": "Colectivo",
-      "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\colectivo\\Colectivo.csproj",
+      "projectUniqueName": "C:\\Users\\Marian\\Desktop\\CFP\\colectivo\\Testeo_Colectivo.csproj",
+      "projectName": "Testeo_Colectivo",
+      "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\colectivo\\Testeo_Colectivo.csproj",
       "packagesPath": "C:\\Users\\Marian\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Marian\\Desktop\\CFP\\colectivo\\obj\\",
       "projectStyle": "PackageReference",
@@ -53,8 +53,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\biblioteca_colectivo.csproj": {
-              "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\biblioteca_colectivo.csproj"
+            "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\Libreria_colectivo.csproj": {
+              "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\Libreria_colectivo.csproj"
             }
           }
         }

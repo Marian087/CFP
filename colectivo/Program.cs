@@ -1,15 +1,14 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using Libreria_colectivo;
 
 
-namespace biblioteca_colectivo
-{
+
+namespace Testeo_Colectivo;
     internal class Program
     {
         static void Main(string[] args)
         {
             
-           PublicKey static
-            
+                      
             
             
             

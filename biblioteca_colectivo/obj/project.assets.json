@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\biblioteca_colectivo.csproj",
-      "projectName": "biblioteca_colectivo",
-      "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\biblioteca_colectivo.csproj",
+      "projectUniqueName": "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\Libreria_colectivo.csproj",
+      "projectName": "Libreria_colectivo",
+      "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\Libreria_colectivo.csproj",
       "packagesPath": "C:\\Users\\Marian\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\obj\\",
       "projectStyle": "PackageReference",

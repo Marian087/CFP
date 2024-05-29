@@ -4,12 +4,12 @@
     "C:\\Users\\Marian\\Desktop\\CFP\\colectivo\\Colectivo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\biblioteca_colectivo.csproj": {
+    "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\Libreria_colectivo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\biblioteca_colectivo.csproj",
-        "projectName": "biblioteca_colectivo",
-        "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\biblioteca_colectivo.csproj",
+        "projectUniqueName": "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\Libreria_colectivo.csproj",
+        "projectName": "Libreria_colectivo",
+        "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\Libreria_colectivo.csproj",
         "packagesPath": "C:\\Users\\Marian\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\obj\\",
         "projectStyle": "PackageReference",
@@ -88,8 +88,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\biblioteca_colectivo.csproj": {
-                "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\biblioteca_colectivo.csproj"
+              "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\Libreria_colectivo.csproj": {
+                "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\biblioteca_colectivo\\Libreria_colectivo.csproj"
               }
             }
           }

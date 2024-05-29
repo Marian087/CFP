@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\biblioteca_colectivo\biblioteca_colectivo.csproj" />
-    <ProjectReference Include="..\colectivo\Colectivo.csproj" />
   </ItemGroup>
 
 </Project>
