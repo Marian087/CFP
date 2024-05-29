@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\BibliotecaEstudiante.csproj",
-      "projectName": "BibliotecaEstudiante",
-      "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\BibliotecaEstudiante.csproj",
+      "projectUniqueName": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\Libreria_Estudiante.csproj",
+      "projectName": "Libreria_Estudiante",
+      "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\Libreria_Estudiante.csproj",
       "packagesPath": "C:\\Users\\Marian\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\obj\\",
       "projectStyle": "PackageReference",

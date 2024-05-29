@@ -3,10 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\Marian\\Desktop\\CFP\\Marian Rodriguez\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{613948D3-F294-4C99-ADEA-A352DA4BFA74}|..\\Testeo_Colectivo\\Testeo_Colectivo.csproj|c:\\users\\marian\\desktop\\cfp\\testeo_colectivo\\testeo_colectivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4855CD99-7321-495D-A7D2-47B916F45470}|..\\Estudiantes\\Estudiantes.csproj|c:\\users\\marian\\desktop\\cfp\\estudiantes\\testeo_estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECBE100C-A127-47D6-BBBA-FC6FD7931CB6}|..\\Libreria_Colectivo\\Libreria_Colectivo.csproj|c:\\users\\marian\\desktop\\cfp\\libreria_colectivo\\colectivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5FE548D-B710-49E7-8809-5B5113DF23E4}|..\\BibliotecaEstudiante\\Libreria_Estudiante.csproj|c:\\users\\marian\\desktop\\cfp\\bibliotecaestudiante\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D0A90A-7EA5-467E-99FC-33CD7847966E}|..\\Libreria_Televisor\\Libreria_Televisor.csproj|c:\\users\\marian\\desktop\\cfp\\libreria_televisor\\televisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,32 +19,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Colectivo.cs",
-              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Libreria_Colectivo\\Colectivo.cs",
-              "RelativeDocumentMoniker": "..\\Libreria_Colectivo\\Colectivo.cs",
-              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Libreria_Colectivo\\Colectivo.cs",
-              "RelativeToolTip": "..\\Libreria_Colectivo\\Colectivo.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAmwEwAAAAUAAAA",
+              "DocumentIndex": 2,
+              "Title": "Televisor.cs",
+              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Libreria_Televisor\\Televisor.cs",
+              "RelativeDocumentMoniker": "..\\Libreria_Televisor\\Televisor.cs",
+              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Libreria_Televisor\\Televisor.cs",
+              "RelativeToolTip": "..\\Libreria_Televisor\\Televisor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T22:11:09.597Z",
+              "WhenOpened": "2024-05-29T02:56:06.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\Estudiante.cs",
+              "RelativeDocumentMoniker": "..\\BibliotecaEstudiante\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\Estudiante.cs",
+              "RelativeToolTip": "..\\BibliotecaEstudiante\\Estudiante.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwCkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:48:42.102Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Testeo_Colectivo.cs",
-              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Testeo_Colectivo\\Testeo_Colectivo.cs",
-              "RelativeDocumentMoniker": "..\\Testeo_Colectivo\\Testeo_Colectivo.cs",
-              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Testeo_Colectivo\\Testeo_Colectivo.cs",
-              "RelativeToolTip": "..\\Testeo_Colectivo\\Testeo_Colectivo.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAgwD0AAAAMAAAA",
+              "Title": "Testeo_Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Estudiantes\\Testeo_Estudiante.cs",
+              "RelativeDocumentMoniker": "..\\Estudiantes\\Testeo_Estudiante.cs",
+              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Estudiantes\\Testeo_Estudiante.cs",
+              "RelativeToolTip": "..\\Estudiantes\\Testeo_Estudiante.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T22:08:46.206Z",
+              "WhenOpened": "2024-05-29T02:41:01.855Z",
               "EditorCaption": ""
             }
           ]

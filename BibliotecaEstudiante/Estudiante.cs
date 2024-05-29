@@ -1,6 +1,6 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 
-namespace BibliotecaEstudiante
+namespace Libreria_Televisor
 {
     public class Estudiante
     {
@@ -19,32 +19,56 @@ namespace BibliotecaEstudiante
         //los datos de los alumnos:
 
 
-        //atributos
-        private string apellido;
-        private string legajo;
-        private string nombre;
-        private int notaPrimerParcial;
-        private int notaSeguntoParcial;
+        // Tendrá un constructor estático que inicializará el atributo estático random.
         private static Random random;
 
+        //Tendrá un constructor de instancia que inicializará los atributos nombre, apellido
+        //y legajo.
+        private string nombre;
+        private string apellido;
+        private int legajo;
+        
+        private int notaPrimerParcial;
+        private int notaSeguntoParcial;
+        
 
-        // constructor de instancia
-        public Estudiante(string apellido, string legajo, string nombre) 
+
+        // constructor de instancia inicializar los atributos
+        public Estudiante(string apellido, string nombre, int legajo) 
         {
             this.apellido = apellido;
-            this.legajo = legajo;
             this.nombre = nombre;
+            this.legajo = legajo;
+           
                                    
         }
 
         
         static Estudiante() //random
         {
-            Estudiante.random = new random();
+            random = new Random();
         
         }
 
-        //metodos
+        public string GetNombre() 
+        {
+            return this.nombre;
+        
+        }
+
+        public string GetApellido()
+        {
+            return this.apellido;
+
+        }
+        public int GeTLegajo() 
+        {
+            return this.legajo;
+                
+        }
+
+
+        //metodos set para cambiar el valor del atributo
         public void SetNotaPrimerParcial (int nota) 
         {
             this.notaPrimerParcial = nota;
@@ -57,14 +81,16 @@ namespace BibliotecaEstudiante
             this.notaPrimerParcial = nota;
 
         }
-
+        ///El método privado CalcularPromedio retornará el promedio de las dos notas.
         private double CalcularPromedio() 
         {
             double promedio = ((double)notaPrimerParcial + notaSeguntoParcial)/2;
             return promedio;        
         
         }
-
+        ///El método CalcularNotaFinal deberá retornar la nota del final con un número
+        //aleatorio entre 6 y 10 incluidos siempre y cuando las notas del primer y segundo
+        //parcial sean mayores o iguales a 4, caso contrario la inicializará con el valor - 1.
         public double CalcularNotaFinal() 
         {
             double resultado = -1;

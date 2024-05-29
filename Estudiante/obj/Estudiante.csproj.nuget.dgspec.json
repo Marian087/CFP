@@ -4,12 +4,12 @@
     "C:\\Users\\Marian\\Desktop\\CFP\\Estudiante\\Estudiante.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\BibliotecaEstudiante.csproj": {
+    "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\Libreria_Estudiante.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\BibliotecaEstudiante.csproj",
-        "projectName": "BibliotecaEstudiante",
-        "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\BibliotecaEstudiante.csproj",
+        "projectUniqueName": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\Libreria_Estudiante.csproj",
+        "projectName": "Libreria_Estudiante",
+        "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\Libreria_Estudiante.csproj",
         "packagesPath": "C:\\Users\\Marian\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\obj\\",
         "projectStyle": "PackageReference",
@@ -88,8 +88,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\BibliotecaEstudiante.csproj": {
-                "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\BibliotecaEstudiante.csproj"
+              "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\Libreria_Estudiante.csproj": {
+                "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\Libreria_Estudiante.csproj"
               }
             }
           }
