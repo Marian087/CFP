@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\Marian\\Desktop\\CFP\\Marian Rodriguez\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3DE18352-EB53-4860-9F00-9083F9A57091}|..\\Formulario_Estudiante\\Formulario_Estudiante.csproj|c:\\users\\marian\\desktop\\cfp\\formulario_estudiante\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4855CD99-7321-495D-A7D2-47B916F45470}|..\\Estudiantes\\Estudiante.csproj|c:\\users\\marian\\desktop\\cfp\\estudiantes\\testeo_estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -16,11 +19,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Formulario_Estudiante\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\Formulario_Estudiante\\Form1.cs",
+              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Formulario_Estudiante\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Formulario_Estudiante\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T21:05:27.591Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Estudiante.cs",
               "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\Estudiante.cs",
               "RelativeDocumentMoniker": "..\\BibliotecaEstudiante\\Estudiante.cs",
@@ -28,18 +43,17 @@
               "RelativeToolTip": "..\\BibliotecaEstudiante\\Estudiante.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAQwCkAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T02:48:42.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T02:48:42.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Testeo_Estudiante.cs",
               "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Estudiantes\\Testeo_Estudiante.cs",
               "RelativeDocumentMoniker": "..\\Estudiantes\\Testeo_Estudiante.cs",
               "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Estudiantes\\Testeo_Estudiante.cs",
               "RelativeToolTip": "..\\Estudiantes\\Testeo_Estudiante.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwAgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T02:41:01.855Z",
               "EditorCaption": ""
