@@ -3,13 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Marian\\Desktop\\CFP\\Marian Rodriguez\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4855CD99-7321-495D-A7D2-47B916F45470}|..\\Estudiantes\\Estudiantes.csproj|c:\\users\\marian\\desktop\\cfp\\estudiantes\\testeo_estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4855CD99-7321-495D-A7D2-47B916F45470}|..\\Estudiantes\\Estudiante.csproj|c:\\users\\marian\\desktop\\cfp\\estudiantes\\testeo_estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5FE548D-B710-49E7-8809-5B5113DF23E4}|..\\BibliotecaEstudiante\\Libreria_Estudiante.csproj|c:\\users\\marian\\desktop\\cfp\\bibliotecaestudiante\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4D0A90A-7EA5-467E-99FC-33CD7847966E}|..\\Libreria_Televisor\\Libreria_Televisor.csproj|c:\\users\\marian\\desktop\\cfp\\libreria_televisor\\televisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,21 +16,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Televisor.cs",
-              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Libreria_Televisor\\Televisor.cs",
-              "RelativeDocumentMoniker": "..\\Libreria_Televisor\\Televisor.cs",
-              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Libreria_Televisor\\Televisor.cs",
-              "RelativeToolTip": "..\\Libreria_Televisor\\Televisor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T02:56:06.295Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -55,7 +39,7 @@
               "RelativeDocumentMoniker": "..\\Estudiantes\\Testeo_Estudiante.cs",
               "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Estudiantes\\Testeo_Estudiante.cs",
               "RelativeToolTip": "..\\Estudiantes\\Testeo_Estudiante.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T02:41:01.855Z",
               "EditorCaption": ""

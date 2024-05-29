@@ -31,11 +31,21 @@ namespace Estudiantes
             Estudiante estudiante5 = new Estudiante("Rodriguez", "Marcelo",4256);
             Estudiante estudiante6 = new Estudiante("Lopez", "Patricio", 3212);
 
-            Con
+            List<Estudiante> listaDeEstudiantes = new List<Estudiante>();
+
+            listaDeEstudiantes.Add(estudiante1);
+            listaDeEstudiantes.Add(estudiante2);
+            listaDeEstudiantes.Add(estudiante3);
+            listaDeEstudiantes.Add(estudiante4);
+            listaDeEstudiantes.Add(estudiante5);
 
 
+            Console.WriteLine("Mostrar La lista completa");
 
-
+            foreach (Estudiante item in listaDeEstudiantes)
+            {
+                Console.WriteLine(item.EstudianteToString());
+            }
 
         }
     }
