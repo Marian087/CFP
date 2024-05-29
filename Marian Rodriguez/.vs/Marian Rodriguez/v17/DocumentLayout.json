@@ -3,9 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Marian\\Desktop\\CFP\\Marian Rodriguez\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17E184D6-ABE2-4B0A-908F-2EB3F460D13C}|..\\Libreria_Funciones\\Libreria_Funciones.csproj|c:\\users\\marian\\desktop\\cfp\\libreria_funciones\\misfunciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{613948D3-F294-4C99-ADEA-A352DA4BFA74}|..\\Testeo_Colectivo\\Testeo_Colectivo.csproj|c:\\users\\marian\\desktop\\cfp\\testeo_colectivo\\testeo_colectivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,43 +16,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MisFunciones.cs",
-              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Libreria_Funciones\\MisFunciones.cs",
-              "RelativeDocumentMoniker": "..\\Libreria_Funciones\\MisFunciones.cs",
-              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Libreria_Funciones\\MisFunciones.cs",
-              "RelativeToolTip": "..\\Libreria_Funciones\\MisFunciones.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T01:11:33.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Colectivo.cs",
               "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Libreria_Colectivo\\Colectivo.cs",
               "RelativeDocumentMoniker": "..\\Libreria_Colectivo\\Colectivo.cs",
               "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Libreria_Colectivo\\Colectivo.cs",
               "RelativeToolTip": "..\\Libreria_Colectivo\\Colectivo.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAuwFwAAAAvAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAmwEwAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T22:11:09.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Testeo_Colectivo.cs",
               "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Testeo_Colectivo\\Testeo_Colectivo.cs",
               "RelativeDocumentMoniker": "..\\Testeo_Colectivo\\Testeo_Colectivo.cs",
               "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Testeo_Colectivo\\Testeo_Colectivo.cs",
               "RelativeToolTip": "..\\Testeo_Colectivo\\Testeo_Colectivo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAABUAAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAAgwD0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T22:08:46.206Z",
               "EditorCaption": ""

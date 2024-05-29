@@ -32,34 +32,44 @@ namespace Testeo_Colectivo
             listaDeColectivos.Add(colectivo4);
             listaDeColectivos.Add(colectivo5);
 
-            Console.WriteLine("Mostrar La lista completa");
 
-           
+            Console.WriteLine("Mostrar La lista completa");
+                      
             foreach (Colectivo item in listaDeColectivos)
             {
                 Console.WriteLine(item.ColectivoToString());
             }
+            
+            Console.WriteLine("Mostrando La lista sin la linea 22");
+           int  indice = retornarIndiceEnLista(listaDeColectivos, 22);
+            
+            listaDeColectivos.RemoveAt(indice);
+            foreach(Colectivo item in listaDeColectivos) 
+            {
+                Console.WriteLine(item.ColectivoToString());
+
+            }
+
+
+
+
+
 
             listaDeColectivos.Sort((Colectivo.CompararColectivosPorLinea));
 
             Console.WriteLine("***ordenado por empresa * **");
 
-            foreach (Colectivo item in listaDeColectivos()) 
-            {
-               
-
-
-            }
+            
             
         }
 
         //para eliminar un item en particular , eliminar el elemento 22 de mi lista.
-        public static int retornarIndiceEnLista( List<Colectivo>lista) 
+        public static int retornarIndiceEnLista( List<Colectivo>lista, int linea) 
         {
             int indice = -1;
             foreach(Colectivo item in lista) 
             {
-                if (item.Getlinea() == 22) 
+                if (item.Getlinea() == linea) 
                 {
                     indice = lista.IndexOf(item);                
                 
