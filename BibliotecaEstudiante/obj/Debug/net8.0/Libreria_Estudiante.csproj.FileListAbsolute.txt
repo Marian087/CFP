@@ -3,3 +3,10 @@ C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\obj\Debug\net8.0\Libreria_Estud
 C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\obj\Debug\net8.0\Libreria_Estudiante.AssemblyInfo.cs
 C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\obj\Debug\net8.0\Libreria_Estudiante.csproj.CoreCompileInputs.cache
 C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\obj\Debug\net8.0\Libreria_Estudiante.sourcelink.json
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\bin\Debug\net8.0\Libreria_Estudiante.deps.json
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\bin\Debug\net8.0\Libreria_Estudiante.dll
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\bin\Debug\net8.0\Libreria_Estudiante.pdb
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\obj\Debug\net8.0\Libreria_Estudiante.dll
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\obj\Debug\net8.0\refint\Libreria_Estudiante.dll
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\obj\Debug\net8.0\Libreria_Estudiante.pdb
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\obj\Debug\net8.0\ref\Libreria_Estudiante.dll

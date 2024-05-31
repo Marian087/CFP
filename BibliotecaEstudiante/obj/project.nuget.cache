@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t7hUG/XDDF6LSfASpx6DCNC2kGfiIBujZQ5Y0z8tdzYla6AYWEXwxb+MwHh52GayCe/EZJRGDO3gUTkWBwlC9w==",
+  "dgSpecHash": "ah5VvcTKRyUq85QKbive2uML0h7gstaxMN3v6fUq8V6Pi5rkLnLn7PgoK0gWipTqvzkqQky69cFX+YHPoA4jTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\Libreria_Estudiante.csproj",
+  "projectFilePath": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\Libreria_Alumno.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

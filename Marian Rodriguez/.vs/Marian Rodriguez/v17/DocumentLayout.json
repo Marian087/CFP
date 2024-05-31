@@ -3,13 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\Marian\\Desktop\\CFP\\Marian Rodriguez\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DE18352-EB53-4860-9F00-9083F9A57091}|..\\Formulario_Estudiante\\Formulario_Estudiante.csproj|c:\\users\\marian\\desktop\\cfp\\formulario_estudiante\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{17E184D6-ABE2-4B0A-908F-2EB3F460D13C}|..\\Libreria_Funciones\\Libreria_Funciones.csproj|c:\\users\\marian\\desktop\\cfp\\libreria_funciones\\misfunciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4855CD99-7321-495D-A7D2-47B916F45470}|..\\Estudiantes\\Estudiante.csproj|c:\\users\\marian\\desktop\\cfp\\estudiantes\\testeo_estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CA01C81-221B-43C5-B276-24D76025CD69}|..\\Funciones003\\Funciones003.csproj|c:\\users\\marian\\desktop\\cfp\\funciones003\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5FE548D-B710-49E7-8809-5B5113DF23E4}|..\\BibliotecaEstudiante\\Libreria_Estudiante.csproj|c:\\users\\marian\\desktop\\cfp\\bibliotecaestudiante\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F871EA4E-78C1-4310-8C9B-10A54CB9641F}|..\\Form_Auto\\Form_Auto.csproj|c:\\users\\marian\\desktop\\cfp\\form_auto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,43 +19,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Formulario_Estudiante\\Form1.cs",
-              "RelativeDocumentMoniker": "..\\Formulario_Estudiante\\Form1.cs",
-              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Formulario_Estudiante\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\Formulario_Estudiante\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T21:05:27.591Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Estudiante.cs",
-              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\Estudiante.cs",
-              "RelativeDocumentMoniker": "..\\BibliotecaEstudiante\\Estudiante.cs",
-              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\Estudiante.cs",
-              "RelativeToolTip": "..\\BibliotecaEstudiante\\Estudiante.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAQwCkAAAALAAAA",
+              "DocumentIndex": 0,
+              "Title": "MisFunciones.cs",
+              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Libreria_Funciones\\MisFunciones.cs",
+              "RelativeDocumentMoniker": "..\\Libreria_Funciones\\MisFunciones.cs",
+              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Libreria_Funciones\\MisFunciones.cs",
+              "RelativeToolTip": "..\\Libreria_Funciones\\MisFunciones.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAAALcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T02:48:42.102Z"
+              "WhenOpened": "2024-05-31T22:58:46.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Testeo_Estudiante.cs",
-              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Estudiantes\\Testeo_Estudiante.cs",
-              "RelativeDocumentMoniker": "..\\Estudiantes\\Testeo_Estudiante.cs",
-              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Estudiantes\\Testeo_Estudiante.cs",
-              "RelativeToolTip": "..\\Estudiantes\\Testeo_Estudiante.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwAgAAAAJAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Funciones003\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Funciones003\\Program.cs",
+              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Funciones003\\Program.cs",
+              "RelativeToolTip": "..\\Funciones003\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowBUAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T02:41:01.855Z",
+              "WhenOpened": "2024-05-31T22:48:38.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Form_Auto\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Form_Auto\\Program.cs",
+              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Form_Auto\\Program.cs",
+              "RelativeToolTip": "..\\Form_Auto\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T23:45:21.211Z",
               "EditorCaption": ""
             }
           ]

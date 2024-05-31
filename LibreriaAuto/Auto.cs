@@ -60,34 +60,30 @@ namespace LibreriaAuto
             }
             return false;
         }
+                
 
+        //public bool ConvertirStringEnColor(string nuevoColor)
+        //{
+        //    bool resultado = true;
 
+        //    switch (nuevoColor.ToLower())
+        //    {
+        //        case "rojo":
+        //            this.color = Color.Red;
+        //            break;
+        //        case "verde":
+        //            this.color = Color.Green;
+        //            break;
+        //        case "azul":
+        //            this.color = Color.Blue;
+        //            break;
+        //        default:
+        //            resultado = false;
+        //            break;
 
-        // CLASE DEL 15/05 ///////////////////////////////////
-
-
-        public bool ConvertirStringEnColor(string nuevoColor)
-        {
-            bool resultado = true;
-
-            switch (nuevoColor.ToLower())
-            {
-                case "rojo":
-                    this.color = Color.Red;
-                    break;
-                case "verde":
-                    this.color = Color.Green;
-                    break;
-                case "azul":
-                    this.color = Color.Blue;
-                    break;
-                default:
-                    resultado = false;
-                    break;
-
-            }
-            return resultado;
-        }
+        //    }
+        //    return resultado;
+        //}
 
 
         public static List<string> ColoresValidos()

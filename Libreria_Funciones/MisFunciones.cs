@@ -165,5 +165,23 @@
             }
             return numeroValido;
         }
+        //Ej-Funciones-03
+        public static double FuncionEspecial(int valor, double porcentaje, bool esAumento)
+        {
+            double resultado = 0;
+            if (esAumento == true)
+            {
+                resultado = valor + (valor * (porcentaje / 100));
+            }
+            else
+            {
+                resultado = valor - (valor * (porcentaje / 100));
+            }
+            return resultado;
+        }
+
+
+
+
     }
 }
