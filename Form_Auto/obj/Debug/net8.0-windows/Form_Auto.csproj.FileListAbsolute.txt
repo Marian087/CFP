@@ -1,0 +1,7 @@
+C:\Users\Marian\Desktop\CFP\Form_Auto\obj\Debug\net8.0-windows\Form_Auto.FormAuto.resources
+C:\Users\Marian\Desktop\CFP\Form_Auto\obj\Debug\net8.0-windows\Form_Auto.csproj.GenerateResource.cache
+C:\Users\Marian\Desktop\CFP\Form_Auto\obj\Debug\net8.0-windows\Form_Auto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marian\Desktop\CFP\Form_Auto\obj\Debug\net8.0-windows\Form_Auto.AssemblyInfoInputs.cache
+C:\Users\Marian\Desktop\CFP\Form_Auto\obj\Debug\net8.0-windows\Form_Auto.AssemblyInfo.cs
+C:\Users\Marian\Desktop\CFP\Form_Auto\obj\Debug\net8.0-windows\Form_Auto.csproj.CoreCompileInputs.cache
+C:\Users\Marian\Desktop\CFP\Form_Auto\obj\Debug\net8.0-windows\Form_Auto.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("libreria_Calzado")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+825e2e1fc22b924da40a12b6d699be352cb0b66c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e88933a6cae02f689b6b161aa2a22c9e61dad0b")]
 [assembly: System.Reflection.AssemblyProductAttribute("libreria_Calzado")]
 [assembly: System.Reflection.AssemblyTitleAttribute("libreria_Calzado")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

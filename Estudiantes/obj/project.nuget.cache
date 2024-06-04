@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "hCyluy8VFXfbihzaW4DSWJZC9+SV4+cOMq+fQpK5rtLKiL8TmbQhVTSiZSjx6lrYi7acP6JpLgQbjVY1rGpXXQ==",
-  "success": true,
+  "dgSpecHash": "2T3ACEjfPjHh9IIK+P3iSSEodB9BOD5/ZEUXJQo5PBcnem30AERbgGJemL5AOkR9k3uV9ZZggC6LiLI1FLdGwA==",
+  "success": false,
   "projectFilePath": "C:\\Users\\Marian\\Desktop\\CFP\\Estudiantes\\Alumno.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto FormAlumno no es compatible con net8.0 (.NETCoreApp,Version=v8.0). El proyecto FormAlumno admite: net8.0-windows7.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "FormAlumno",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

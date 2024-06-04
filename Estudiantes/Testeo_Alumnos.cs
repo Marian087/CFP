@@ -1,9 +1,9 @@
-﻿using Libreria_Alumno;   
-
+﻿using Libreria_Alumno;
 
 namespace Alumno
-
 {
+
+
     internal class Testeo_Alumnos
     {
         static void Main(string[] args)
@@ -22,45 +22,51 @@ namespace Alumno
             //El método Mostrar utilizará StringBuilder para armar una cadena de texto con todos
             //los datos de los alumnos:
 
-            Alumno alumno1 = new Alumno("PEREZ", "JUAN", 254); //valor ingresado
+            //Alumno alumno = new Alumno("PEREZ", "JUAN", "254"); //valor ingresado
+            //Materia matematicas = new Materia("Matematicas", 3);
 
-            alumno1.Legajo = "254"; //valor a consultar
-
-            alumno1.NotaPrimerParcial = 8; // aca modificamos la nota
-            alumno1.NotaSegundoParcial = 2;
-
-            Console.WriteLine(alumno)
-
-            Random rand = new Random();
-
-
-            List<Alumno> alumno = new List<Alumno>()
-            { //creacion de la instancia de estudiantes
-                new Alumno( "Gonzalez","Teresa",1025),
-                new Alumno( "Gomez","Teresa",1025),
-                new Alumno( "Rodriguez","Teresa",1025),
-                new Alumno( "Lopez","Teresa",1025),
-                new Alumno( "Mendez","Teresa",1025),
-            };
-
-            foreach (Alumno a in alumno) 
-            {
-                a.SetNotaPrimerParcial(rand)
-                a.SetNotaSegundoParcial(rand)
-            
-            }
-           
+            Evaluacion ev1 = new Evaluacion(new Alumno("2015", "Carlos", "Rodriguez"));
            
             
+            Console.WriteLine($"Alumno: {ev1.Alumno}");
+            Console.WriteLine("Esta cursando: ");
+
+
+            //Random rand = new Random();
+
+
+            //List<Alumno> alumno = new List<Alumno>()
+            //{ //creacion de la instancia de estudiantes
+            //    new Alumno( "Gonzalez","Teresa",1025),
+            //    new Alumno( "Gomez","Teresa",1025),
+            //    new Alumno( "Rodriguez","Teresa",1025),
+            //    new Alumno( "Lopez","Teresa",1025),
+            //    new Alumno( "Mendez","Teresa",1025),
+            //};
+
+            //foreach (Alumno a in alumno)
+            //{
+            //    a.SetNotaPrimerParcial(rand)
+            //    a.SetNotaSegundoParcial(rand)
+    
+
+            //}
+
+         
+
 
 
             Console.WriteLine("Mostrar La lista completa");
 
-            foreach (Alumno item in listaDeAlumno)
-            {
-                Console.WriteLine(item.AlumnoToString());
-            }
+            //foreach (Alumno item in listaDeAlumno)
+            //{
+            //    Console.WriteLine(item.AlumnoToString());
+            //}
 
         }
     }
+
+
+
+
 }

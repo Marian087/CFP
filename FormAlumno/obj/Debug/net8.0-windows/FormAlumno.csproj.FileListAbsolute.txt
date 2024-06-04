@@ -1,0 +1,9 @@
+C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\FormAlumno.csproj.AssemblyReference.cache
+C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\FormAlumno.FormCrear.resources
+C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\FormAlumno.FormPrincipal.resources
+C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\FormAlumno.csproj.GenerateResource.cache
+C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\FormAlumno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\FormAlumno.AssemblyInfoInputs.cache
+C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\FormAlumno.AssemblyInfo.cs
+C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\FormAlumno.csproj.CoreCompileInputs.cache
+C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\FormAlumno.sourcelink.json

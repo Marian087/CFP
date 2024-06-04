@@ -1,4 +1,7 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using Libreria_Alumno;
+
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
 
 namespace Libreria_Alumno
 {
@@ -43,10 +46,8 @@ namespace Libreria_Alumno
             get 
             {
                 return this.legajo;
-            
-            
+                        
             }
-        
         }
         
                 // constructor de instancia inicializar los atributos
@@ -55,32 +56,25 @@ namespace Libreria_Alumno
             this.apellido = apellido;
             this.nombre = nombre;
             this.legajo = legajo;
-           
-                                   
-        }
-
-        
+                   
+        }        
         static Alumno() //random
         {
-            random = new Random();
-        
+            random = new Random();        
         }
 
         public string GetNombre() 
         {
-            return this.nombre;
-        
+            return this.nombre;        
         }
 
         public string GetApellido()
         {
             return this.apellido;
-
         }
         public string GetLegajo() 
         {
-            return this.legajo;
-                
+            return this.legajo;                
         }
 
 
@@ -90,7 +84,11 @@ namespace Libreria_Alumno
         //    this.notaPrimerParcial = nota;
                     
         //}
-
+        public Alumno() 
+        {
+        
+        }
+       
         public int NotaPrimerParcial 
         {
             get => notaPrimerParcial;
@@ -100,18 +98,12 @@ namespace Libreria_Alumno
                 if(value >= 0 && value <= 10) 
                 {
                     notaPrimerParcial = value;
-
-
                 }
                 else 
                 {
-                    notaPrimerParcial = 0;
-                
-                }
-
-            
-            }
-        
+                    notaPrimerParcial = 0;                
+                }            
+            }        
         }
 
         //public void SetNotaSegundoParcial(int nota)
@@ -129,39 +121,27 @@ namespace Libreria_Alumno
                 if (value >= 0 && value <= 10)
                 {
                     notaSegundoParcial = value;
-
-
                 }
                 else
                 {
                     notaSegundoParcial = 0;
-
                 }
-
-
             }
-
         }
 
         public double NotaFinal //properti , se puede consultar por fuera, no hacen referencia de un atributo propio de la clase.
         {
             get 
             {
-                return this.CalcularNotaFinal();
-            
-            }
-        
-        
+                return this.CalcularNotaFinal();            
+            }    
         }
-
         public double Promedio 
         {
             get 
             {
-                return this.CalcularPromedio();           
-            
-            }        
-        
+                return this.CalcularPromedio();      
+            }                 
         }
 
         ///El método CalcularNotaFinal deberá retornar la nota del final con un número
@@ -188,21 +168,19 @@ namespace Libreria_Alumno
 
         }
         //public string Mostrar()
-        //{
-        //    stringBuilder sb = new stringBuilder
+        public string Mostrar()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine($"Nombre: {nombre}");
+            sb.AppendLine($"Apellido: {apellido}");
+            sb.AppendLine($"Legajo: {legajo}");
+            sb.AppendLine($"Nota Primer Parcial: {notaPrimerParcial}");
+            sb.AppendLine($"Nota Segundo Parcial: {notaSegundoParcial}");
+            sb.AppendLine($"Promedio: {CalcularPromedio()}");
+            sb.AppendLine($"Nota Final: {CalcularNotaFinal}");
 
-
-
-        //}
-
-        //public string EstudianteToString()
-        //{
-        //    stringBuilder texto = new stringBuilder();
-
-        //    texto.Append($")
-
-
-        //}
+            return sb.ToString();
+        }
 
         public static List<Alumno> ListaDeAlumno() 
         {
@@ -210,11 +188,7 @@ namespace Libreria_Alumno
             {
                 new Alumno ( "Gonzalez","Teresa","1025"),
 
-
-
             };
-
-
 
         }
 

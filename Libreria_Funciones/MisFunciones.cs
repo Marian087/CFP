@@ -2,6 +2,60 @@
 {
     public class MisFunciones
     {
+
+        //2. Pedir nombre y apellido
+        public static string PedirNombre()
+        {
+            string lectura;
+            Console.WriteLine("Ingrese su nombre");
+            lectura = Console.ReadLine();
+
+            return lectura;
+        }
+        public static string PedirApellido()
+        {
+            string lectura;
+            Console.WriteLine("Ingrese su apellido");
+            lectura = Console.ReadLine();
+
+            return lectura;
+        }
+
+        //Pedir un numero entero (ejemplo de una funcion mantenible, generica y reutilizable
+        public static int PedirNumeroEntero(string mensajePedir, string mensajeError)
+        {
+            string? entrada;
+            int numero;
+            bool falla;
+
+            do
+            {
+                falla = false;
+                Console.Write(mensajePedir);
+                entrada = Console.ReadLine();
+                if (!int.TryParse(entrada, out numero))
+                {
+                    Console.WriteLine(mensajeError);
+                    falla = true;
+                }
+
+            } while (falla);
+
+            return numero;
+        }
+
+        //cargar array de numeros
+        public static int[] CargarArrayDeEnteros(int cantidad)
+        {
+            Console.WriteLine("Para cargar un array de enteros");
+            int[] numeros = new int[cantidad];
+            for (int i = 0; i < cantidad; i++)
+            {
+                numeros[i] = PedirNumeroEntero($"Ingrese el numero {i + 1} de {cantidad}: ", "EL dato ingresado no es numerico");
+            }
+            return numeros;
+        }
+
         public static int PedirEntero(string mensaje, string mensajeError)
         {
             int numeroValido;

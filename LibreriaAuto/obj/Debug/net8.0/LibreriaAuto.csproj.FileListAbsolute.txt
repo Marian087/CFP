@@ -1,0 +1,12 @@
+C:\Users\Marian\Desktop\CFP\LibreriaAuto\bin\Debug\net8.0\LibreriaAuto.deps.json
+C:\Users\Marian\Desktop\CFP\LibreriaAuto\bin\Debug\net8.0\LibreriaAuto.dll
+C:\Users\Marian\Desktop\CFP\LibreriaAuto\bin\Debug\net8.0\LibreriaAuto.pdb
+C:\Users\Marian\Desktop\CFP\LibreriaAuto\obj\Debug\net8.0\LibreriaAuto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marian\Desktop\CFP\LibreriaAuto\obj\Debug\net8.0\LibreriaAuto.AssemblyInfoInputs.cache
+C:\Users\Marian\Desktop\CFP\LibreriaAuto\obj\Debug\net8.0\LibreriaAuto.AssemblyInfo.cs
+C:\Users\Marian\Desktop\CFP\LibreriaAuto\obj\Debug\net8.0\LibreriaAuto.csproj.CoreCompileInputs.cache
+C:\Users\Marian\Desktop\CFP\LibreriaAuto\obj\Debug\net8.0\LibreriaAuto.sourcelink.json
+C:\Users\Marian\Desktop\CFP\LibreriaAuto\obj\Debug\net8.0\LibreriaAuto.dll
+C:\Users\Marian\Desktop\CFP\LibreriaAuto\obj\Debug\net8.0\refint\LibreriaAuto.dll
+C:\Users\Marian\Desktop\CFP\LibreriaAuto\obj\Debug\net8.0\LibreriaAuto.pdb
+C:\Users\Marian\Desktop\CFP\LibreriaAuto\obj\Debug\net8.0\ref\LibreriaAuto.dll

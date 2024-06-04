@@ -15,34 +15,33 @@ namespace LibreriaAuto
         //F.En un proyecto de consola crear un objeto del tipo Auto, mostrar todos su valores y dentro de un bucle repetitivo usar el metodo avanzar(), este debera repetirse hasta que el auto agote su combustible y se debera informar cuantas repeticiones logra realizar.
 
 
-        string marca;
-        int cantCombustible;
-        Color color;
+        private string marca;
+        private double cantCombustible;
+        private Color color;
 
+        //metodos get
         public Auto(string marca, int cantCombustible, Color color)
         {
             this.marca = marca;
             this.cantCombustible = cantCombustible;
             this.color = color;
         }
-
-
         public string GetMarca()
         {
             return marca;
         }
-        public int GetCantCombustible()
+        public double GetCantCombustible()
         {
             return cantCombustible;
         }
-        public string GetColor()
+        public Color GetColor()
         {
-            return "";
+            return color;
         }
 
         public string AutoToString()
         {
-            return $"El auto es de la marca {marca}, su color es {color} y la cantidad de combustible es {cantCombustible} litros.";
+            return $"El auto es de la marca {marca}, la cantidad de combustible es {cantCombustible} litros y su color es {color}.";
         }
 
 
@@ -52,13 +51,16 @@ namespace LibreriaAuto
 
         public bool Avanzar(int km)
         {
-            if (cantCombustible >= 1 && cantCombustible >= km / 10)
+            bool retorno = false;
+            double combustibleNecesario = (double) km / 10;
+
+            if (cantCombustible >= 1 && cantCombustible >= combustibleNecesario)
             {
-                cantCombustible -= km / 10;
+                cantCombustible -= combustibleNecesario;
                 return true;
 
             }
-            return false;
+            return retorno;
         }
                 
 
