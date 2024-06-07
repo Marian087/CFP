@@ -25,34 +25,34 @@ namespace Alumno
             //Alumno alumno = new Alumno("PEREZ", "JUAN", "254"); //valor ingresado
             //Materia matematicas = new Materia("Matematicas", 3);
 
-            Evaluacion ev1 = new Evaluacion(new Alumno("2015", "Carlos", "Rodriguez"));
-           
-            
-            Console.WriteLine($"Alumno: {ev1.Alumno}");
-            Console.WriteLine("Esta cursando: ");
+            //Evaluacion ev1 = new Evaluacion(new Alumno("2015", "Carlos", "Rodriguez"));
 
 
-            //Random rand = new Random();
+            //Console.WriteLine($"Alumno: {ev1.Alumno}");
+            //Console.WriteLine("Esta cursando: ");
 
 
-            //List<Alumno> alumno = new List<Alumno>()
-            //{ //creacion de la instancia de estudiantes
-            //    new Alumno( "Gonzalez","Teresa",1025),
-            //    new Alumno( "Gomez","Teresa",1025),
-            //    new Alumno( "Rodriguez","Teresa",1025),
-            //    new Alumno( "Lopez","Teresa",1025),
-            //    new Alumno( "Mendez","Teresa",1025),
-            //};
+            Random rand = new Random();
+
+
+            List<Alumno> alumno = new List<Alumno>()
+            { //creacion de la instancia de estudiantes
+                new Alumno( "Gonzalez","Teresa",1025),
+                new Alumno( "Gomez","Teresa",1025),
+                new Alumno( "Rodriguez","Teresa",1025),
+                new Alumno( "Lopez","Teresa",1025),
+                new Alumno( "Mendez","Teresa",1025),
+            };
 
             //foreach (Alumno a in alumno)
             //{
             //    a.SetNotaPrimerParcial(rand)
             //    a.SetNotaSegundoParcial(rand)
-    
+
 
             //}
 
-         
+
 
 
 

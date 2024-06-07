@@ -1,5 +1,8 @@
 ﻿using FormAlumno;
 
+
+
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,14 +18,21 @@ namespace FormAlumno
     public partial class FormPrincipal : Form
     {
 
-        List< Alumno > alumno;
-      
+        List<Alumno> alumno;
+
         public FormPrincipal()
         {
             InitializeComponent();
         }
 
+        private void FormPrincipal_Load(object sender, EventArgs e)
+        {
+            this.
+        }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

@@ -1,4 +1,5 @@
-﻿using Libreria_Alumno;
+﻿using Alumno;
+
 
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -23,8 +24,8 @@ namespace Libreria_Alumno
         //los datos de los alumnos:
 
 
-        // Tendrá un constructor estático que inicializará el atributo estático random.
-        private static Random random;
+      
+      
 
         //Tendrá un constructor de instancia que inicializará los atributos nombre, apellido
         //y legajo.
@@ -34,6 +35,76 @@ namespace Libreria_Alumno
         
         private int notaPrimerParcial;
         private int notaSegundoParcial;
+        private static Random random;  // Tendrá un constructor estático que inicializará el atributo estático random.
+
+        public void SetNotaPrimerParcial(int nota)
+        {
+            this.notaPrimerParcial = nota;
+
+        }
+
+        public void SetNotaSegundoParcial(int nota)
+        {
+            this.notaSegundoParcial = nota;
+        }
+
+        static Alumno()
+        {
+            Alumno ramdom = new Random();
+
+        }
+        public Alumno(string apellido, string nombre, string legajo)
+        {
+            this.apellido = apellido;
+            this.nombre = nombre;
+            this.legajo = legajo;
+
+        }
+
+        ///El método CalcularNotaFinal deberá retornar la nota del final con un número
+        //aleatorio entre 6 y 10 incluidos siempre y cuando las notas del primer y segundo
+        //parcial sean mayores o iguales a 4, caso contrario la inicializará con el valor - 1.
+        public double CalcularNotaFinal()
+        {
+            double resultado = -1;
+
+            if (notaPrimerParcial >= 4 && notaSegundoParcial >= 4)
+            {
+                double notaFinal = random.Next(6, 10);
+                resultado = notaFinal;
+
+            }
+            return resultado;
+
+        }
+
+        ///El método privado CalcularPromedio retornará el promedio de las dos notas.
+        private double CalcularPromedio()
+        {
+            double promedio = ((double)notaPrimerParcial + notaSegundoParcial) / 2;
+            return promedio;
+
+        }
+        //public string Mostrar()
+        public string Mostrar()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine($"Alumno: {this.apellido},{this.nombre}- Leg: nº{this.Legajo}");
+            sb.AppendLine($"Nota Primer Parcial: {notaPrimerParcial} - 2º Parcial: {notaSegundoParcial}");
+            sb.AppendLine($"Promedio: {CalcularPromedio()}");
+            double notaFinal = this.CalcularNotaFinal();
+
+            if(notaFinal != 0) 
+            {
+                sb.AppendLine($"Nota Final: {notaFinal}");          
+                      
+            }
+            else 
+            {
+                sb.AppendLine($"Alumno Desaprobado");
+            }
+            return sb.ToString();
+        }
 
 
 
@@ -51,18 +122,8 @@ namespace Libreria_Alumno
         }
         
                 // constructor de instancia inicializar los atributos
-        public Alumno(string apellido, string nombre, string legajo) 
-        {
-            this.apellido = apellido;
-            this.nombre = nombre;
-            this.legajo = legajo;
-                   
-        }        
-        static Alumno() //random
-        {
-            random = new Random();        
-        }
-
+              
+       
         public string GetNombre() 
         {
             return this.nombre;        
@@ -77,6 +138,14 @@ namespace Libreria_Alumno
             return this.legajo;                
         }
 
+        public static List<Alumno> ListAlumnos() 
+        {
+            return new List<Alumno>();
+
+            new Alumno("Gomez", "Ezequiel", "521");        
+        
+        }
+        public override string 
 
         //metodos set para cambiar el valor del atributo
         //public void SetNotaPrimerParcial (int nota) 
@@ -84,27 +153,25 @@ namespace Libreria_Alumno
         //    this.notaPrimerParcial = nota;
                     
         //}
-        public Alumno() 
-        {
-        
-        }
        
-        public int NotaPrimerParcial 
-        {
-            get => notaPrimerParcial;
+        
+       
+        //public int NotaPrimerParcial 
+        //{
+        //    get => notaPrimerParcial;
            
-            set 
-            {
-                if(value >= 0 && value <= 10) 
-                {
-                    notaPrimerParcial = value;
-                }
-                else 
-                {
-                    notaPrimerParcial = 0;                
-                }            
-            }        
-        }
+        //    set 
+        //    {
+        //        if(value >= 0 && value <= 10) 
+        //        {
+        //            notaPrimerParcial = value;
+        //        }
+        //        else 
+        //        {
+        //            notaPrimerParcial = 0;                
+        //        }            
+        //    }        
+        
 
         //public void SetNotaSegundoParcial(int nota)
         //{
@@ -112,89 +179,27 @@ namespace Libreria_Alumno
 
         //}
 
-        public int NotaSegundoParcial
-        {
-            get => notaSegundoParcial;
+        //public int NotaSegundoParcial
+        //{
+        //    get => notaSegundoParcial;
 
-            set
-            {
-                if (value >= 0 && value <= 10)
-                {
-                    notaSegundoParcial = value;
-                }
-                else
-                {
-                    notaSegundoParcial = 0;
-                }
-            }
-        }
+        //    set
+        //    {
+        //        if (value >= 0 && value <= 10)
+        //        {
+        //            notaSegundoParcial = value;
+        //        }
+        //        else
+        //        {
+        //            notaSegundoParcial = 0;
+        //        }
+        //    }
+        //}
 
-        public double NotaFinal //properti , se puede consultar por fuera, no hacen referencia de un atributo propio de la clase.
-        {
-            get 
-            {
-                return this.CalcularNotaFinal();            
-            }    
-        }
-        public double Promedio 
-        {
-            get 
-            {
-                return this.CalcularPromedio();      
-            }                 
-        }
+        
 
-        ///El método CalcularNotaFinal deberá retornar la nota del final con un número
-        //aleatorio entre 6 y 10 incluidos siempre y cuando las notas del primer y segundo
-        //parcial sean mayores o iguales a 4, caso contrario la inicializará con el valor - 1.
-        public double CalcularNotaFinal() 
-        {
-            double resultado = -1;
-
-            if( notaPrimerParcial >= 4 && notaSegundoParcial >= 4) 
-            {
-                double notaFinal = random.Next(6, 10);
-                resultado = notaFinal;
-            
-            }
-            return resultado;
-
-        }
-        ///El método privado CalcularPromedio retornará el promedio de las dos notas.
-        private double CalcularPromedio()
-        {
-            double promedio = ((double)notaPrimerParcial + notaSegundoParcial) / 2;
-            return promedio;
-
-        }
-        //public string Mostrar()
-        public string Mostrar()
-        {
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine($"Nombre: {nombre}");
-            sb.AppendLine($"Apellido: {apellido}");
-            sb.AppendLine($"Legajo: {legajo}");
-            sb.AppendLine($"Nota Primer Parcial: {notaPrimerParcial}");
-            sb.AppendLine($"Nota Segundo Parcial: {notaSegundoParcial}");
-            sb.AppendLine($"Promedio: {CalcularPromedio()}");
-            sb.AppendLine($"Nota Final: {CalcularNotaFinal}");
-
-            return sb.ToString();
-        }
-
-        public static List<Alumno> ListaDeAlumno() 
-        {
-            return new List<Alumno>()
-            {
-                new Alumno ( "Gonzalez","Teresa","1025"),
-
-            };
-
-        }
-
-        public override string? ToString()
-        {
-            return base.ToString();
-        }
+       
+       
+      
     }
 }

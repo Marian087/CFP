@@ -1,10 +1,10 @@
-using FormAlumno;
+
 
 namespace FormAlumno
 {
     public partial class FormCrear : Form
     {
-        private Alumno nuevoAlumno;
+
 
 
         public FormCrear()
@@ -12,65 +12,128 @@ namespace FormAlumno
             InitializeComponent();
         }
 
-        private void private void InitializeComponent()
+        private void InitializeComponent()
         {
-            txtBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            button1 = new Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCrear));
+            txt_Nombre = new TextBox();
+            txt_Apellido = new TextBox();
+            btn_Cargar = new Button();
             button2 = new Button();
+            lbl_Legajo = new Label();
+            lbl_Nombre = new Label();
+            txt_Legajo = new TextBox();
+            lbl_Apellido = new Label();
             SuspendLayout();
             // 
-            // txtBox1
+            // txt_Nombre
             // 
-            txtBox1.Location = new Point(100, 33);
-            txtBox1.Name = "txtBox1";
-            txtBox1.Size = new Size(152, 23);
-            txtBox1.TabIndex = 0;
+            txt_Nombre.Location = new Point(12, 97);
+            txt_Nombre.Name = "txt_Nombre";
+            txt_Nombre.Size = new Size(152, 23);
+            txt_Nombre.TabIndex = 1;
             // 
-            // textBox2
+            // txt_Apellido
             // 
-            textBox2.Location = new Point(89, 92);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(152, 23);
-            textBox2.TabIndex = 1;
+            txt_Apellido.Location = new Point(12, 164);
+            txt_Apellido.Name = "txt_Apellido";
+            txt_Apellido.Size = new Size(152, 23);
+            txt_Apellido.TabIndex = 2;
             // 
-            // textBox3
+            // btn_Cargar
             // 
-            textBox3.Location = new Point(89, 154);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(152, 23);
-            textBox3.TabIndex = 2;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(27, 262);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 3;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btn_Cargar.FlatAppearance.BorderColor = Color.FromArgb(0, 0, 192);
+            btn_Cargar.FlatAppearance.MouseDownBackColor = Color.Blue;
+            btn_Cargar.FlatStyle = FlatStyle.System;
+            btn_Cargar.Location = new Point(12, 326);
+            btn_Cargar.Name = "btn_Cargar";
+            btn_Cargar.Size = new Size(75, 23);
+            btn_Cargar.TabIndex = 3;
+            btn_Cargar.Text = "Cargar";
+            btn_Cargar.UseVisualStyleBackColor = true;
+            btn_Cargar.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(166, 262);
+            button2.Location = new Point(142, 326);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 4;
-            button2.Text = "button2";
+            button2.Text = "Mostrar";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // lbl_Legajo
+            // 
+            lbl_Legajo.AutoSize = true;
+            lbl_Legajo.ForeColor = Color.Black;
+            lbl_Legajo.Location = new Point(27, 16);
+            lbl_Legajo.Name = "lbl_Legajo";
+            lbl_Legajo.Size = new Size(42, 15);
+            lbl_Legajo.TabIndex = 5;
+            lbl_Legajo.Text = "Legajo";
+            lbl_Legajo.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // lbl_Nombre
+            // 
+            lbl_Nombre.AutoSize = true;
+            lbl_Nombre.Location = new Point(18, 79);
+            lbl_Nombre.Name = "lbl_Nombre";
+            lbl_Nombre.Size = new Size(51, 15);
+            lbl_Nombre.TabIndex = 6;
+            lbl_Nombre.Text = "Nombre";
+            // 
+            // txt_Legajo
+            // 
+            txt_Legajo.ForeColor = SystemColors.MenuText;
+            txt_Legajo.Location = new Point(12, 34);
+            txt_Legajo.Name = "txt_Legajo";
+            txt_Legajo.Size = new Size(152, 23);
+            txt_Legajo.TabIndex = 0;
+            // 
+            // lbl_Apellido
+            // 
+            lbl_Apellido.AutoSize = true;
+            lbl_Apellido.Location = new Point(18, 146);
+            lbl_Apellido.Name = "lbl_Apellido";
+            lbl_Apellido.Size = new Size(51, 15);
+            lbl_Apellido.TabIndex = 7;
+            lbl_Apellido.Text = "Apellido";
             // 
             // FormCrear
             // 
+            BackColor = Color.Violet;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(426, 401);
+            Controls.Add(lbl_Apellido);
+            Controls.Add(lbl_Nombre);
+            Controls.Add(lbl_Legajo);
             Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(txtBox1);
+            Controls.Add(btn_Cargar);
+            Controls.Add(txt_Apellido);
+            Controls.Add(txt_Nombre);
+            Controls.Add(txt_Legajo);
             Name = "FormCrear";
+            Load += FormCrear_Load;
             ResumeLayout(false);
             PerformLayout();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormCrear_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
