@@ -1,24 +1,79 @@
-
+using Libreria_Alumno;
+using System;
+using System.Drawing;
+using System.Windows.Forms;
 
 namespace FormAlumno
 {
     public partial class FormCrear : Form
     {
 
-
+        private Alumno nuevoAlumno;
 
         public FormCrear()
         {
             InitializeComponent();
         }
 
+        public FormCrear(TextBox txt_Nombre, TextBox txt_Apellido, Button btn_Aceptar, Button btn_Cancelar, Label lbl_Legajo, Label lbl_Nombre, TextBox txt_Legajo, Label lbl_Apellido, Alumno nuevoAlumno)
+        {
+            this.txt_Nombre = txt_Nombre;
+            this.txt_Apellido = txt_Apellido;
+            this.btn_Aceptar = btn_Aceptar;
+            this.btn_Cancelar = btn_Cancelar;
+            this.lbl_Legajo = lbl_Legajo;
+            this.lbl_Nombre = lbl_Nombre;
+            this.txt_Legajo = txt_Legajo;
+            this.lbl_Apellido = lbl_Apellido;
+            this.nuevoAlumno = nuevoAlumno;
+        }
+
+        private void FormCrear_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void btn_Aceptar_Click(object sender, EventArgs e)
+        {
+            string nombre = txt_Nombre.Text;
+            string apellido = txt_Apellido.Text;
+
+            if (!int.TryParse(txt_Legajo.Text, out int legajo))
+            {
+                MessageBox.Show("Legajo debe ser un nùmero entero.");
+
+                return;
+
+            }
+
+            nuevoAlumno = new Alumno(nombre,apellido,legajo);
+            this.DialogResult = DialogResult.OK;
+
+        }
+        private void btn_Cancelar_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
+        }
+
+        public Alumno MiAlumno
+        {
+            get
+            {
+                return nuevoAlumno;
+            }
+
+        }
+
+        
+       
+       
+
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCrear));
             txt_Nombre = new TextBox();
             txt_Apellido = new TextBox();
-            btn_Cargar = new Button();
-            button2 = new Button();
+            btn_Aceptar = new Button();
+            btn_Cancelar = new Button();
             lbl_Legajo = new Label();
             lbl_Nombre = new Label();
             txt_Legajo = new TextBox();
@@ -39,28 +94,29 @@ namespace FormAlumno
             txt_Apellido.Size = new Size(152, 23);
             txt_Apellido.TabIndex = 2;
             // 
-            // btn_Cargar
+            // btn_Aceptar
             // 
-            btn_Cargar.FlatAppearance.BorderColor = Color.FromArgb(0, 0, 192);
-            btn_Cargar.FlatAppearance.MouseDownBackColor = Color.Blue;
-            btn_Cargar.FlatStyle = FlatStyle.System;
-            btn_Cargar.Location = new Point(12, 326);
-            btn_Cargar.Name = "btn_Cargar";
-            btn_Cargar.Size = new Size(75, 23);
-            btn_Cargar.TabIndex = 3;
-            btn_Cargar.Text = "Cargar";
-            btn_Cargar.UseVisualStyleBackColor = true;
-            btn_Cargar.Click += button1_Click;
+            btn_Aceptar.FlatAppearance.BorderColor = Color.FromArgb(0, 0, 192);
+            btn_Aceptar.FlatAppearance.MouseDownBackColor = Color.Blue;
+            btn_Aceptar.FlatStyle = FlatStyle.System;
+            btn_Aceptar.Location = new Point(12, 326);
+            btn_Aceptar.Name = "btn_Aceptar";
+            btn_Aceptar.Size = new Size(75, 23);
+            btn_Aceptar.TabIndex = 3;
+            btn_Aceptar.Text = "Aceptar";
+            btn_Aceptar.UseVisualStyleBackColor = true;
+            btn_Aceptar.Click += new EventHandler(btn_Aceptar_Click);
             // 
-            // button2
+            // btn_Cancelar
             // 
-            button2.Location = new Point(142, 326);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 4;
-            button2.Text = "Mostrar";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            btn_Cancelar.Location = new Point(142, 326);
+            btn_Cancelar.Name = "btn_Cancelar";
+            btn_Cancelar.Size = new Size(75, 23);
+            btn_Cancelar.TabIndex = 4;
+            btn_Cancelar.Text = "Cancelar";
+            btn_Cancelar.UseVisualStyleBackColor = true;
+            btn_Cancelar.Click += new EventHandler(btn_Cancelar_Click);
+
             // 
             // lbl_Legajo
             // 
@@ -108,32 +164,17 @@ namespace FormAlumno
             Controls.Add(lbl_Apellido);
             Controls.Add(lbl_Nombre);
             Controls.Add(lbl_Legajo);
-            Controls.Add(button2);
-            Controls.Add(btn_Cargar);
+            Controls.Add(btn_Cancelar);
+            Controls.Add(btn_Aceptar);
             Controls.Add(txt_Apellido);
             Controls.Add(txt_Nombre);
             Controls.Add(txt_Legajo);
             Name = "FormCrear";
-            Load += FormCrear_Load;
+            Load += new EventHandler(FormCrear_Load);
             ResumeLayout(false);
             PerformLayout();
-        }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FormCrear_Load(object sender, EventArgs e)
-        {
-
+            
         }
     }
 }

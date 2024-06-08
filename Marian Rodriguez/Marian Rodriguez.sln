@@ -51,7 +51,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Televisores", "..\Televisor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Libreria_Televisor", "..\Libreria_Televisor\Libreria_Televisor.csproj", "{A4D0A90A-7EA5-467E-99FC-33CD7847966E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alumno", "..\Estudiantes\Alumno.csproj", "{4855CD99-7321-495D-A7D2-47B916F45470}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteoAlumno", "..\Estudiantes\TesteoAlumno.csproj", "{4855CD99-7321-495D-A7D2-47B916F45470}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Funciones003", "..\Funciones003\Funciones003.csproj", "{7CA01C81-221B-43C5-B276-24D76025CD69}"
 EndProject
@@ -61,7 +61,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormAlumno", "..\FormAlumno
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteoPrimeraEvaluacion", "..\TesteoPrimeraEvaluacion\TesteoPrimeraEvaluacion.csproj", "{C77ADEE7-1564-48D2-BA8B-AF21CECCE6AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form_Auto1", "..\Form_Auto1\Form_Auto1.csproj", "{98EE9423-9192-45DE-9545-220C995FB0AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Form_Auto1", "..\Form_Auto1\Form_Auto1.csproj", "{98EE9423-9192-45DE-9545-220C995FB0AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

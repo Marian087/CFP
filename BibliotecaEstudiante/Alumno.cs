@@ -1,7 +1,4 @@
-﻿using Alumno;
-
-
-using System.Security.Cryptography.X509Certificates;
+﻿using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace Libreria_Alumno
@@ -24,41 +21,60 @@ namespace Libreria_Alumno
         //los datos de los alumnos:
 
 
-      
-      
+
+
 
         //Tendrá un constructor de instancia que inicializará los atributos nombre, apellido
         //y legajo.
+        private static Random random;  //es un atributo de instancia. Tendrá un constructor estático que inicializará el atributo estático random.
+
         private string nombre;
         private string apellido;
-        private string legajo;
+        private int legajo;
         
         private int notaPrimerParcial;
         private int notaSegundoParcial;
-        private static Random random;  // Tendrá un constructor estático que inicializará el atributo estático random.
-
-        public void SetNotaPrimerParcial(int nota)
+        
+        public Alumno(string nombre, string apellido, int legajo)
         {
-            this.notaPrimerParcial = nota;
-
-        }
-
-        public void SetNotaSegundoParcial(int nota)
-        {
-            this.notaSegundoParcial = nota;
-        }
-
-        static Alumno()
-        {
-            Alumno ramdom = new Random();
-
-        }
-        public Alumno(string apellido, string nombre, string legajo)
-        {
-            this.apellido = apellido;
             this.nombre = nombre;
+            this.apellido = apellido;
             this.legajo = legajo;
+        }
 
+        static Alumno() 
+        {
+            random = new Random();
+        
+        }      
+        
+
+        public int Legajo
+        {
+            set
+            {
+                this.legajo = value;
+            }
+            get
+            {
+                return this.legajo;
+
+            }
+        }
+
+        // constructor de instancia inicializar los atributos
+        public string GetNombre()
+        {
+            return this.nombre;
+        }
+
+        public string GetApellido()
+        {
+            return this.apellido;
+        }
+        public int GetLegajo()
+        {
+            return this.legajo;
         }
 
         ///El método CalcularNotaFinal deberá retornar la nota del final con un número
@@ -79,7 +95,7 @@ namespace Libreria_Alumno
         }
 
         ///El método privado CalcularPromedio retornará el promedio de las dos notas.
-        private double CalcularPromedio()
+        private double CalcularPromedio()// casteo a double
         {
             double promedio = ((double)notaPrimerParcial + notaSegundoParcial) / 2;
             return promedio;
@@ -106,100 +122,76 @@ namespace Libreria_Alumno
             return sb.ToString();
         }
 
-
-
-        public string Legajo 
-        {
-            set
-            {
-                this.legajo= value;
-            }
-            get 
-            {
-                return this.legajo;
-                        
-            }
-        }
-        
-                // constructor de instancia inicializar los atributos
-              
-       
-        public string GetNombre() 
-        {
-            return this.nombre;        
-        }
-
-        public string GetApellido()
-        {
-            return this.apellido;
-        }
-        public string GetLegajo() 
-        {
-            return this.legajo;                
-        }
-
         public static List<Alumno> ListAlumnos() 
         {
-            return new List<Alumno>();
+            return new List<Alumno>
+            {
+                new Alumno ("Gomez","Ezequiel", 521)
 
-            new Alumno("Gomez", "Ezequiel", "521");        
+            };
+
+              
         
         }
-        public override string 
+
 
         //metodos set para cambiar el valor del atributo
         //public void SetNotaPrimerParcial (int nota) 
         //{
         //    this.notaPrimerParcial = nota;
-                    
-        //}
-       
-        
-       
-        //public int NotaPrimerParcial 
-        //{
-        //    get => notaPrimerParcial;
-           
-        //    set 
-        //    {
-        //        if(value >= 0 && value <= 10) 
-        //        {
-        //            notaPrimerParcial = value;
-        //        }
-        //        else 
-        //        {
-        //            notaPrimerParcial = 0;                
-        //        }            
-        //    }        
-        
-
-        //public void SetNotaSegundoParcial(int nota)
-        //{
-        //    this.notaPrimerParcial = nota;
 
         //}
 
-        //public int NotaSegundoParcial
-        //{
-        //    get => notaSegundoParcial;
 
-        //    set
-        //    {
-        //        if (value >= 0 && value <= 10)
-        //        {
-        //            notaSegundoParcial = value;
-        //        }
-        //        else
-        //        {
-        //            notaSegundoParcial = 0;
-        //        }
-        //    }
+
+        public int NotaPrimerParcial
+        {
+            get => notaPrimerParcial;
+
+            set
+            {
+                if (value >= 0 && value <= 10)
+                {
+                    notaPrimerParcial = value;
+                }
+                else
+                {
+                    notaPrimerParcial = 0;
+                }
+            }
+        }
+
+
+        public void SetNotaSegundoParcial(int nota)
+        {
+            this.notaPrimerParcial = nota;
+
+        }
+
+        public int NotaSegundoParcial
+        {
+            get => notaSegundoParcial;
+
+            set
+            {
+                if (value >= 0 && value <= 10)
+                {
+                    notaSegundoParcial = value;
+                }
+                else
+                {
+                    notaSegundoParcial = 0;
+                }
+            }
+        }
+
+        //if (!int.TryParse(txt_Legajo.Text, out int legajo))
+        //{       
         //}
 
-        
 
-       
-       
-      
+
+
+
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Libreria_Alumno;
+using Alumno;
 
 namespace Alumno
 {

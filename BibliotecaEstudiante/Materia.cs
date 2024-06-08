@@ -12,7 +12,7 @@ namespace Libreria_Alumno
         private int  duracion;
         private int notaPrimerParcial;
         private int notaSegundoParcial;
-        private Random= Random
+        private static Random random;
 
         //constructores - boton derecho sobre materia crear constructores.
         public Materia(string nombre)
@@ -20,11 +20,11 @@ namespace Libreria_Alumno
             this.nombre = nombre;
           
         }
-        public int CalcularNotaFinal() 
-        {
+        //public int CalcularNotaFinal() 
+        //{
         
         
-        }
+        //}
 
 
 

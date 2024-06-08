@@ -1,0 +1,12 @@
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\obj\Debug\net8.0\Libreria_Alumno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\obj\Debug\net8.0\Libreria_Alumno.AssemblyInfoInputs.cache
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\obj\Debug\net8.0\Libreria_Alumno.AssemblyInfo.cs
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\obj\Debug\net8.0\Libreria_Alumno.csproj.CoreCompileInputs.cache
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\obj\Debug\net8.0\Libreria_Alumno.sourcelink.json
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\bin\Debug\net8.0\Libreria_Alumno.deps.json
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\bin\Debug\net8.0\Libreria_Alumno.dll
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\bin\Debug\net8.0\Libreria_Alumno.pdb
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\obj\Debug\net8.0\Libreria_Alumno.dll
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\obj\Debug\net8.0\refint\Libreria_Alumno.dll
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\obj\Debug\net8.0\Libreria_Alumno.pdb
+C:\Users\Marian\Desktop\CFP\BibliotecaEstudiante\obj\Debug\net8.0\ref\Libreria_Alumno.dll

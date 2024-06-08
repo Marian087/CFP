@@ -10,7 +10,6 @@
   <ItemGroup>
     <ProjectReference Include="..\BibliotecaEstudiante\Libreria_Alumno.csproj" />
     <ProjectReference Include="..\FormAlumno\FormAlumno.csproj" />
-    <ProjectReference Include="..\Libreria_Funciones\Libreria_Funciones.csproj" />
   </ItemGroup>
 
 </Project>

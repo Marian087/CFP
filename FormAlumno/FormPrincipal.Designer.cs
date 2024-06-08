@@ -30,93 +30,95 @@ namespace FormAlumno
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            label2 = new Label();
-            listBox1 = new ListBox();
-            listBox2 = new ListBox();
-            btn_agregar = new Button();
-            button2 = new Button();
-            button3 = new Button();
+            lbl_Alumnos = new Label();
+            lbl_Informacion = new Label();
+            listBoxAlumnos = new ListBox();
+            listBoxInformacion = new ListBox();
+            btn_Agregar = new Button();
+            btn_Evaluar = new Button();
+            btn_Mostrar = new Button();
             SuspendLayout();
             // 
-            // label1
+            // lbl_Alumnos
             // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.FromArgb(255, 192, 255);
-            label1.ForeColor = SystemColors.ControlText;
-            label1.Location = new Point(45, 36);
-            label1.Name = "label1";
-            label1.Size = new Size(55, 15);
-            label1.TabIndex = 3;
-            label1.Text = "Alumnos";
-            label1.Click += label1_Click;
+            lbl_Alumnos.AutoSize = true;
+            lbl_Alumnos.BackColor = Color.FromArgb(255, 192, 255);
+            lbl_Alumnos.ForeColor = SystemColors.ControlText;
+            lbl_Alumnos.Location = new Point(45, 36);
+            lbl_Alumnos.Name = "lbl_Alumnos";
+            lbl_Alumnos.Size = new Size(55, 15);
+            lbl_Alumnos.TabIndex = 3;
+            lbl_Alumnos.Text = "Alumnos";
             // 
-            // label2
+            // lbl_Informacion
             // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.FromArgb(255, 192, 255);
-            label2.FlatStyle = FlatStyle.Popup;
-            label2.Location = new Point(280, 36);
-            label2.Name = "label2";
-            label2.Size = new Size(72, 15);
-            label2.TabIndex = 4;
-            label2.Text = "Informacion";
+            lbl_Informacion.AutoSize = true;
+            lbl_Informacion.BackColor = Color.FromArgb(255, 192, 255);
+            lbl_Informacion.FlatStyle = FlatStyle.Popup;
+            lbl_Informacion.Location = new Point(280, 36);
+            lbl_Informacion.Name = "lbl_Informacion";
+            lbl_Informacion.Size = new Size(72, 15);
+            lbl_Informacion.TabIndex = 4;
+            lbl_Informacion.Text = "Informacion";
             // 
-            // listBox1
+            // listBoxAlumnos
             // 
-            listBox1.BackColor = Color.White;
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(32, 72);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(120, 274);
-            listBox1.TabIndex = 5;
+            listBoxAlumnos.BackColor = Color.White;
+            listBoxAlumnos.FormattingEnabled = true;
+            listBoxAlumnos.ItemHeight = 15;
+            listBoxAlumnos.Location = new Point(32, 72);
+            listBoxAlumnos.Name = "listBoxAlumnos";
+            listBoxAlumnos.Size = new Size(120, 274);
+            listBoxAlumnos.TabIndex = 5;
             // 
-            // listBox2
+            // listBoxInformacion
             // 
-            listBox2.BackColor = Color.White;
-            listBox2.FormattingEnabled = true;
-            listBox2.ItemHeight = 15;
-            listBox2.Location = new Point(250, 72);
-            listBox2.Name = "listBox2";
-            listBox2.Size = new Size(447, 274);
-            listBox2.TabIndex = 6;
+            listBoxInformacion.BackColor = Color.White;
+            listBoxInformacion.FormattingEnabled = true;
+            listBoxInformacion.ItemHeight = 15;
+            listBoxInformacion.Location = new Point(250, 72);
+            listBoxInformacion.Name = "listBoxInformacion";
+            listBoxInformacion.Size = new Size(447, 274);
+            listBoxInformacion.TabIndex = 6;
             // 
-            // btn_agregar
+            // btn_Agregar
             // 
-            btn_agregar.BackColor = Color.FromArgb(255, 192, 255);
-            btn_agregar.FlatAppearance.BorderColor = Color.Blue;
-            btn_agregar.FlatAppearance.MouseDownBackColor = Color.Silver;
-            btn_agregar.FlatAppearance.MouseOverBackColor = Color.Gray;
-            btn_agregar.FlatStyle = FlatStyle.Popup;
-            btn_agregar.Location = new Point(50, 379);
-            btn_agregar.Name = "btn_agregar";
-            btn_agregar.Size = new Size(141, 23);
-            btn_agregar.TabIndex = 7;
-            btn_agregar.Text = "Agregar";
-            btn_agregar.UseVisualStyleBackColor = false;
+            btn_Agregar.BackColor = Color.FromArgb(255, 192, 255);
+            btn_Agregar.FlatAppearance.BorderColor = Color.Blue;
+            btn_Agregar.FlatAppearance.MouseDownBackColor = Color.Silver;
+            btn_Agregar.FlatAppearance.MouseOverBackColor = Color.Gray;
+            btn_Agregar.FlatStyle = FlatStyle.Popup;
+            btn_Agregar.Location = new Point(50, 379);
+            btn_Agregar.Name = "btn_Agregar";
+            btn_Agregar.Size = new Size(141, 23);
+            btn_Agregar.TabIndex = 7;
+            btn_Agregar.Text = "Agregar";
+            btn_Agregar.UseVisualStyleBackColor = false;
+            btn_Agregar.Click += btn_Agregar_Click;
             // 
-            // button2
+            // btn_Evaluar
             // 
-            button2.BackColor = Color.FromArgb(255, 192, 255);
-            button2.FlatStyle = FlatStyle.Popup;
-            button2.Location = new Point(229, 379);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 8;
-            button2.Text = "Evaluar";
-            button2.UseVisualStyleBackColor = false;
+            btn_Evaluar.BackColor = Color.FromArgb(255, 192, 255);
+            btn_Evaluar.FlatStyle = FlatStyle.Popup;
+            btn_Evaluar.Location = new Point(229, 379);
+            btn_Evaluar.Name = "btn_Evaluar";
+            btn_Evaluar.Size = new Size(75, 23);
+            btn_Evaluar.TabIndex = 8;
+            btn_Evaluar.Text = "Evaluar";
+            btn_Evaluar.UseVisualStyleBackColor = false;
+            btn_Evaluar.Click += btn_Evaluar_Click;
             // 
-            // button3
+            // btn_Mostrar
             // 
-            button3.BackColor = Color.FromArgb(255, 192, 255);
-            button3.FlatStyle = FlatStyle.Popup;
-            button3.Location = new Point(414, 379);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 9;
-            button3.Text = "Mostrar";
-            button3.UseVisualStyleBackColor = false;
+            btn_Mostrar.BackColor = Color.FromArgb(255, 192, 255);
+            btn_Mostrar.FlatStyle = FlatStyle.Popup;
+            btn_Mostrar.Location = new Point(414, 379);
+            btn_Mostrar.Name = "btn_Mostrar";
+            btn_Mostrar.Size = new Size(75, 23);
+            btn_Mostrar.TabIndex = 9;
+            btn_Mostrar.Text = "Mostrar";
+            btn_Mostrar.UseVisualStyleBackColor = false;
+            btn_Mostrar.Click += btn_Mostrar_Click_1;
             // 
             // FormPrincipal
             // 
@@ -124,13 +126,13 @@ namespace FormAlumno
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(192, 255, 192);
             ClientSize = new Size(800, 450);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(btn_agregar);
-            Controls.Add(listBox2);
-            Controls.Add(listBox1);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            Controls.Add(btn_Mostrar);
+            Controls.Add(btn_Evaluar);
+            Controls.Add(btn_Agregar);
+            Controls.Add(listBoxInformacion);
+            Controls.Add(listBoxAlumnos);
+            Controls.Add(lbl_Informacion);
+            Controls.Add(lbl_Alumnos);
             Name = "FormPrincipal";
             Text = "Formulario Principal";
             TransparencyKey = Color.FromArgb(128, 255, 128);
@@ -140,12 +142,12 @@ namespace FormAlumno
         }
 
         #endregion
-        private Label label1;
-        private Label label2;
-        private ListBox listBox1;
-        private ListBox listBox2;
-        private Button btn_agregar;
-        private Button button2;
-        private Button button3;
+        private Label lbl_Alumnos;
+        private Label lbl_Informacion;
+        private ListBox listBoxAlumnos;
+        private ListBox listBoxInformacion;
+        private Button btn_Agregar;
+        private Button btn_Evaluar;
+        private Button btn_Mostrar;
     }
 }

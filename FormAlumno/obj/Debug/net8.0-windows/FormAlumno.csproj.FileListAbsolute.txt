@@ -7,3 +7,17 @@ C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\FormAlumno.Assem
 C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\FormAlumno.AssemblyInfo.cs
 C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\FormAlumno.csproj.CoreCompileInputs.cache
 C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\FormAlumno.sourcelink.json
+C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\FormAlumno.Properties.Resources.resources
+C:\Users\Marian\Desktop\CFP\FormAlumno\bin\Debug\net8.0-windows\FormAlumno.exe
+C:\Users\Marian\Desktop\CFP\FormAlumno\bin\Debug\net8.0-windows\FormAlumno.deps.json
+C:\Users\Marian\Desktop\CFP\FormAlumno\bin\Debug\net8.0-windows\FormAlumno.runtimeconfig.json
+C:\Users\Marian\Desktop\CFP\FormAlumno\bin\Debug\net8.0-windows\FormAlumno.dll
+C:\Users\Marian\Desktop\CFP\FormAlumno\bin\Debug\net8.0-windows\FormAlumno.pdb
+C:\Users\Marian\Desktop\CFP\FormAlumno\bin\Debug\net8.0-windows\Libreria_Alumno.dll
+C:\Users\Marian\Desktop\CFP\FormAlumno\bin\Debug\net8.0-windows\Libreria_Alumno.pdb
+C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\FormAlumno.csproj.Up2Date
+C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\FormAlumno.dll
+C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\refint\FormAlumno.dll
+C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\FormAlumno.pdb
+C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\FormAlumno.genruntimeconfig.cache
+C:\Users\Marian\Desktop\CFP\FormAlumno\obj\Debug\net8.0-windows\ref\FormAlumno.dll

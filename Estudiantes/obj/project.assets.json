@@ -21,16 +21,6 @@
         "runtime": {
           "bin/placeholder/Libreria_Alumno.dll": {}
         }
-      },
-      "Libreria_Funciones/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/Libreria_Funciones.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Libreria_Funciones.dll": {}
-        }
       }
     }
   },
@@ -44,18 +34,12 @@
       "type": "project",
       "path": "../BibliotecaEstudiante/Libreria_Alumno.csproj",
       "msbuildProject": "../BibliotecaEstudiante/Libreria_Alumno.csproj"
-    },
-    "Libreria_Funciones/1.0.0": {
-      "type": "project",
-      "path": "../Libreria_Funciones/Libreria_Funciones.csproj",
-      "msbuildProject": "../Libreria_Funciones/Libreria_Funciones.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "FormAlumno >= 1.0.0",
-      "Libreria_Alumno >= 1.0.0",
-      "Libreria_Funciones >= 1.0.0"
+      "Libreria_Alumno >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -64,9 +48,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marian\\Desktop\\CFP\\Estudiantes\\Alumno.csproj",
-      "projectName": "Alumno",
-      "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\Estudiantes\\Alumno.csproj",
+      "projectUniqueName": "C:\\Users\\Marian\\Desktop\\CFP\\Estudiantes\\TesteoAlumno.csproj",
+      "projectName": "TesteoAlumno",
+      "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\Estudiantes\\TesteoAlumno.csproj",
       "packagesPath": "C:\\Users\\Marian\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Marian\\Desktop\\CFP\\Estudiantes\\obj\\",
       "projectStyle": "PackageReference",
@@ -90,9 +74,6 @@
             },
             "C:\\Users\\Marian\\Desktop\\CFP\\FormAlumno\\FormAlumno.csproj": {
               "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\FormAlumno\\FormAlumno.csproj"
-            },
-            "C:\\Users\\Marian\\Desktop\\CFP\\Libreria_Funciones\\Libreria_Funciones.csproj": {
-              "projectPath": "C:\\Users\\Marian\\Desktop\\CFP\\Libreria_Funciones\\Libreria_Funciones.csproj"
             }
           }
         }
