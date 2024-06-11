@@ -3,19 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Marian\\Desktop\\CFP\\Marian Rodriguez\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A29A1D9A-01FE-4CA3-AB7B-0DF7AC231519}|..\\FormAlumno\\FormAlumno.csproj|c:\\users\\marian\\desktop\\cfp\\formalumno\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A29A1D9A-01FE-4CA3-AB7B-0DF7AC231519}|..\\FormAlumno\\FormAlumno.csproj|c:\\users\\marian\\desktop\\cfp\\formalumno\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5FE548D-B710-49E7-8809-5B5113DF23E4}|..\\BibliotecaEstudiante\\Libreria_Alumno.csproj|c:\\users\\marian\\desktop\\cfp\\bibliotecaestudiante\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A29A1D9A-01FE-4CA3-AB7B-0DF7AC231519}|..\\FormAlumno\\FormAlumno.csproj|c:\\users\\marian\\desktop\\cfp\\formalumno\\formcrear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A29A1D9A-01FE-4CA3-AB7B-0DF7AC231519}|..\\FormAlumno\\FormAlumno.csproj|c:\\users\\marian\\desktop\\cfp\\formalumno\\formcrear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E108FDD8-7741-45DC-BE30-EAB29147C2D5}|..\\Ingresante1\\Ingresante1.csproj|c:\\users\\marian\\desktop\\cfp\\ingresante1\\ingresante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,74 +13,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Alumno.cs",
-              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\Alumno.cs",
-              "RelativeDocumentMoniker": "..\\BibliotecaEstudiante\\Alumno.cs",
-              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\BibliotecaEstudiante\\Alumno.cs",
-              "RelativeToolTip": "..\\BibliotecaEstudiante\\Alumno.cs",
-              "ViewState": "AQIAAI0AAAAAAAAAAAAkwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T02:42:41.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormCrear.cs",
-              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\FormAlumno\\FormCrear.cs",
-              "RelativeDocumentMoniker": "..\\FormAlumno\\FormCrear.cs",
-              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\FormAlumno\\FormCrear.cs",
-              "RelativeToolTip": "..\\FormAlumno\\FormCrear.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAIwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T02:27:49.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormCrear.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\FormAlumno\\FormCrear.cs",
-              "RelativeDocumentMoniker": "..\\FormAlumno\\FormCrear.cs",
-              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\FormAlumno\\FormCrear.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\FormAlumno\\FormCrear.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T02:27:34.801Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\FormAlumno\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "..\\FormAlumno\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\FormAlumno\\FormPrincipal.cs",
-              "RelativeToolTip": "..\\FormAlumno\\FormPrincipal.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAewGUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T02:17:59.422Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\FormAlumno\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "..\\FormAlumno\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\FormAlumno\\FormPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\FormAlumno\\FormPrincipal.cs [Dise\u00F1o]",
+              "Title": "Ingresante.cs",
+              "DocumentMoniker": "C:\\Users\\Marian\\Desktop\\CFP\\Ingresante1\\Ingresante.cs",
+              "RelativeDocumentMoniker": "..\\Ingresante1\\Ingresante.cs",
+              "ToolTip": "C:\\Users\\Marian\\Desktop\\CFP\\Ingresante1\\Ingresante.cs",
+              "RelativeToolTip": "..\\Ingresante1\\Ingresante.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAQwAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T02:15:08.108Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-06-10T23:51:26.463Z",
+              "EditorCaption": ""
             }
           ]
         }

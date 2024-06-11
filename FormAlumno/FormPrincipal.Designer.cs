@@ -33,10 +33,11 @@ namespace FormAlumno
             lbl_Alumnos = new Label();
             lbl_Informacion = new Label();
             listBoxAlumnos = new ListBox();
-            listBoxInformacion = new ListBox();
             btn_Agregar = new Button();
             btn_Evaluar = new Button();
             btn_Mostrar = new Button();
+            dgv_informacion = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dgv_informacion).BeginInit();
             SuspendLayout();
             // 
             // lbl_Alumnos
@@ -70,16 +71,6 @@ namespace FormAlumno
             listBoxAlumnos.Name = "listBoxAlumnos";
             listBoxAlumnos.Size = new Size(120, 274);
             listBoxAlumnos.TabIndex = 5;
-            // 
-            // listBoxInformacion
-            // 
-            listBoxInformacion.BackColor = Color.White;
-            listBoxInformacion.FormattingEnabled = true;
-            listBoxInformacion.ItemHeight = 15;
-            listBoxInformacion.Location = new Point(250, 72);
-            listBoxInformacion.Name = "listBoxInformacion";
-            listBoxInformacion.Size = new Size(447, 274);
-            listBoxInformacion.TabIndex = 6;
             // 
             // btn_Agregar
             // 
@@ -120,16 +111,24 @@ namespace FormAlumno
             btn_Mostrar.UseVisualStyleBackColor = false;
             btn_Mostrar.Click += btn_Mostrar_Click_1;
             // 
+            // dgv_informacion
+            // 
+            dgv_informacion.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgv_informacion.Location = new Point(249, 72);
+            dgv_informacion.Name = "dgv_informacion";
+            dgv_informacion.Size = new Size(478, 274);
+            dgv_informacion.TabIndex = 10;
+            // 
             // FormPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(192, 255, 192);
             ClientSize = new Size(800, 450);
+            Controls.Add(dgv_informacion);
             Controls.Add(btn_Mostrar);
             Controls.Add(btn_Evaluar);
             Controls.Add(btn_Agregar);
-            Controls.Add(listBoxInformacion);
             Controls.Add(listBoxAlumnos);
             Controls.Add(lbl_Informacion);
             Controls.Add(lbl_Alumnos);
@@ -137,6 +136,7 @@ namespace FormAlumno
             Text = "Formulario Principal";
             TransparencyKey = Color.FromArgb(128, 255, 128);
             Load += FormPrincipal_Load;
+            ((System.ComponentModel.ISupportInitialize)dgv_informacion).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -145,9 +145,9 @@ namespace FormAlumno
         private Label lbl_Alumnos;
         private Label lbl_Informacion;
         private ListBox listBoxAlumnos;
-        private ListBox listBoxInformacion;
         private Button btn_Agregar;
         private Button btn_Evaluar;
         private Button btn_Mostrar;
+        private DataGridView dgv_informacion;
     }
 }

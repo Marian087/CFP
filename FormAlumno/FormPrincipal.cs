@@ -86,7 +86,7 @@ namespace FormAlumno
 
         private void btn_Mostrar_Click_1(object sender, EventArgs e)
         {
-            if(alumnos != null && alumnos.Count > 0)
+            if (alumnos != null && alumnos.Count > 0)
             {
                 this.dgv_alumnos.DataSource = null;
                 this.dgv_alumnos.DataSource = alumnos;
@@ -104,7 +104,12 @@ namespace FormAlumno
             {
                 MessageBox.Show("No hay alumnos para mostrar");
             }
-           
+
+        }
+
+        private void listBoxInformacion_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
 
 
